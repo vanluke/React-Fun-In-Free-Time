@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './shared/_shared.scss';
+import { Login } from './login';
 
-ReactDOM.render(<h1>ABC</h1>, document.getElementById('container'));
+ReactDOM.render(<Login />, document.getElementById('container'));

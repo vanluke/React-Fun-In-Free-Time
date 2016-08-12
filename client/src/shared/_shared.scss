@@ -1,0 +1,33 @@
+@import '../mixins';
+$primary: #2196F3;
+
+#container {
+  position: relative;
+  // height: 800px;
+  // width: 1400px;
+}
+
+.fun {
+  @include element('input') {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    transition: border-width .2s ease;
+    border-radius: 2px;
+    color: #ccc;
+    outline: none;
+    color: #444;
+    border-color: $primary;
+    border-left-width: 35px;
+  }
+  @include element('button') {
+    border: none;
+    padding: 15px 20px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
