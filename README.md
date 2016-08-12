@@ -1,1 +1,3 @@
-# React-Fun-In-Free-Time
+# Fun in free time
+
+## ReactJS, Redux
