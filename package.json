@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --port=3000 --inline --progress --hot --colors",
-    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --require ./helpers/index.js client/src/**/*.test.js --recursive",
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --require ./helpers/index.js client/**/*.test.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {

@@ -1,5 +1,4 @@
 import React from 'react';
-import wrap from 'react-mocha-stateless-test-helper';
 import {
   renderIntoDocument,
   Simulate,
