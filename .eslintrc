@@ -6,7 +6,8 @@
     "mocha": true
   },
   "plugins": [
-    "babel"
+    "babel",
+    "chai-expect"
   ],
   "extends": "eslint-config-airbnb",
   "parser": "babel-eslint",
@@ -16,6 +17,9 @@
   },
 
   "rules": {
+    "chai-expect/missing-assertion": 2,
+    "chai-expect/terminating-properties": 1,
+
     /**
      * ES6
      */
