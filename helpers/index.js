@@ -1,5 +1,6 @@
 import jsdom from 'jsdom';
 import './middleware';
+import './ignore-styles';
 import virtualazeDom from './js-dom';
 
 const doc = jsdom.jsdom('<!doctype html><html><body></body></html>');
