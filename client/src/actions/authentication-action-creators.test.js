@@ -1,20 +1,21 @@
 import { expect } from 'chai';
-import { setUsername, setPassword } from './authentication-action-creators';
-import { SET_USER_NAME, SET_PASSWORD } from './const';
+import { setLoginState } from './authentication-action-creators';
+import { SET_LOGIN_STATE } from './const';
 
 describe('action creators', () => {
   describe('authentication', () => {
     it('sets user name. Action', () => {
       const name = 'name';
-      const { type, payload } = setUsername(name);
-      expect(type).to.be.equal(SET_USER_NAME);
-      expect(payload).to.be.equal(name);
+      const password = 'password';
+      const { type, userName } = setLoginState(name, password);
+      expect(type).to.be.equal(SET_LOGIN_STATE);
+      expect(userName).to.be.equal(name);
     });
     it('sets password. Action', () => {
-      const password = 'password';
-      const { type, payload } = setPassword(password);
-      expect(type).to.be.equal(SET_PASSWORD);
-      expect(payload).to.be.equal(password);
+      const passwordTyped = 'password';
+      const { type, password } = setLoginState('', passwordTyped);
+      expect(type).to.be.equal(SET_LOGIN_STATE);
+      expect(password).to.be.equal(password);
     });
   });
 });

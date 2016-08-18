@@ -6,6 +6,6 @@ import { Login } from '../login';
 export const routes = (<Router history={hashHistory}>
   <Route path="/" component={App}>
     <IndexRedirect to="/login" />
-    <Route path="/dashbards" component={Login} />
+    <Route path="/login" component={Login} />
   </Route>
 </Router>);

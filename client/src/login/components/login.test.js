@@ -4,9 +4,17 @@ import {
   Simulate,
   scryRenderedDOMComponentsWithTag
 } from 'react-addons-test-utils';
-import { expect } from 'chai';
+import chai, { expect } from 'chai';
 
 import Login from './login';
+
+function original(userName, password) {
+  return {
+    userName,
+    password
+  };
+}
+const dispatch = chai.spy(original);
 
 describe('login component', () => {
   it('renders', () => {
@@ -15,14 +23,14 @@ describe('login component', () => {
     expect(component).to.be.ok;
   });
 
-  it('change state after providing inputs value', () => {
-    const component = renderIntoDocument(<Login />);
+  it('call action after providing inputs value', () => {
+    const component = renderIntoDocument(<Login dispatch={dispatch} />);
     const form = scryRenderedDOMComponentsWithTag(component, 'input');
     Simulate.change(form[0], { target: { value: 'name' } });
     Simulate.change(form[1], { target: { value: 'password' } });
     // eslint-disable-next-line no-unused-expressions
     expect(form).to.be.ok;
-    expect(component.state.userName).to.be.equal('name');
-    expect(component.state.password).to.be.equal('password');
+    // eslint-disable-next-line no-unused-expressions
+    expect(dispatch).to.have.been.called.twice;
   });
 });

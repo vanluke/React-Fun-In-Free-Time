@@ -1,10 +1,12 @@
-import { SET_USER_NAME, SET_PASSWORD } from '../actions';
+import { SET_LOGIN_STATE } from '../actions';
 
-export default function(state, action) {
+export default function(state = {}, action = {}) {
   switch (action.type) {
-    case SET_USER_NAME:
-    case SET_PASSWORD:
-      return action.payload;
+    case SET_LOGIN_STATE:
+      return {
+        userName: action.userName,
+        password: action.password
+      };
     default:
       return state;
   }

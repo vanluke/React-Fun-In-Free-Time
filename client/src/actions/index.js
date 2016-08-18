@@ -1,2 +1,2 @@
-export { SET_USER_NAME, SET_PASSWORD } from './const';
-export { setUsername, setPassword } from './authentication-action-creators';
+export { SET_LOGIN_STATE } from './const';
+export { setLoginState } from './authentication-action-creators';

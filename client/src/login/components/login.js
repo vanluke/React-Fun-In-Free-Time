@@ -3,6 +3,7 @@ import 'font-awesome/scss/font-awesome.scss';
 import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
+import { setLoginState } from '../../actions';
 import './_login.scss';
 
 class Login extends PureComponent {
@@ -12,16 +13,16 @@ class Login extends PureComponent {
 
   onUserNameChange(event) {
     event.preventDefault();
-    this.setState({
-      userName: event.target.value
-    });
+    const { dispatch, password } = this.props;
+    const username = event.target.value;
+    dispatch(setLoginState(username, password));
   }
 
   onPasswordChange(event) {
     event.preventDefault();
-    this.setState({
-      password: event.target.value
-    });
+    const { dispatch, userName } = this.props;
+    const password = event.target.value;
+    dispatch(setLoginState(userName, password));
   }
 
   onSubmit(event) {
@@ -29,7 +30,7 @@ class Login extends PureComponent {
   }
 
   render() {
-    const { userName, password } = this.state;
+    const { userName, password } = this.props;
     return (<div className="login">
       <Form title="Login" onSubmit={this.onSubmit}>
         <LoginInput
@@ -57,10 +58,10 @@ class Login extends PureComponent {
     </div>);
   }
 
-  state = {
-    userName: '',
-    password: ''
-  }
+  static propTypes = {
+    userName: PropTypes.string,
+    password: PropTypes.string
+  };
 }
 
 export default Login;

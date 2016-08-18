@@ -1,15 +1,9 @@
-import { SET_USER_NAME, SET_PASSWORD } from './const';
+import { SET_LOGIN_STATE } from './const';
 
-export const setUsername = function(username) {
+export const setLoginState = function(userName, password) {
   return {
-    type: SET_USER_NAME,
-    payload: username
-  };
-};
-
-export const setPassword = function(password) {
-  return {
-    type: SET_PASSWORD,
-    payload: password
+    type: SET_LOGIN_STATE,
+    userName,
+    password
   };
 };
