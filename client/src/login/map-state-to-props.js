@@ -1,7 +1,7 @@
 export default function mapStateToProps(state) {
-  const { authenticationReducer } = state;
+  const { loginReducer } = state;
   return {
-    userName: authenticationReducer.userName,
-    passowrd: authenticationReducer.password
+    userName: loginReducer.userName,
+    passowrd: loginReducer.password
   };
 }
