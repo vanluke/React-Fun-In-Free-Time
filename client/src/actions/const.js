@@ -9,3 +9,4 @@ export const RESET_PASSWORD_REQUEST = 'reset_password_request';
 export const PROTECTED_TEST = 'protected_test';
 export const AUTH_IN_PROGRESS = 'in_progress';
 export const SIDEBAR_IS_OPEN = 'is_side_bar_open';
+export const CHECK_IS_AUTH = 'get_token';

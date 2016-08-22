@@ -3,7 +3,7 @@ import 'font-awesome/scss/font-awesome.scss';
 import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
-import { setLoginState, loginUser } from '../../actions';
+import { setLoginState, loginUser, checkAuthentication } from '../../actions';
 import './_login.scss';
 
 class Login extends Component {
@@ -29,6 +29,11 @@ class Login extends Component {
     const { dispatch, userName, password } = this.props;
     const user = Object.assign({}, { userName, password });
     dispatch(loginUser(user));
+  }
+
+  componentDidMount() {
+    const { dispatch, authenticated } = this.props;
+    dispatch(checkAuthentication(authenticated));
   }
 
   onSubmit(event) {

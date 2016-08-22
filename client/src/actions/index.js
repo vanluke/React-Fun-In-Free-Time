@@ -7,4 +7,7 @@ export { SET_LOGIN_STATE,
   RESET_PASSWORD_REQUEST,
   PROTECTED_TEST,
   SIDEBAR_IS_OPEN } from './const';
-export { setLoginState, loginUser, sideBarToggle } from './authentication-action-creators';
+export { setLoginState,
+  checkAuthentication,
+  loginUser,
+  sideBarToggle } from './authentication-action-creators';

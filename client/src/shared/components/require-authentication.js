@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 export default function(ComposedComponent) {
   class AuthenticatedComponent extends PureComponent {
     componentWillMount() {
+        console.log('componentWillMount', authenticated);
       const { authenticated } = this.props;
       if (!authenticated) {
         this.context.router.push('/login');
@@ -16,6 +17,7 @@ export default function(ComposedComponent) {
     }
 
     componentWillUpdate({ authenticated }) {
+      console.log('componentWillUpdate', authenticated);
       if (!authenticated) {
         this.context.router.push('/login');
       }
