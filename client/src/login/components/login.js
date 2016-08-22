@@ -1,12 +1,12 @@
-import React, { PropTypes, PureComponent } from 'react';
+import React, { PropTypes, Component } from 'react';
 import 'font-awesome/scss/font-awesome.scss';
 import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
-import { setLoginState } from '../../actions';
+import { setLoginState, loginUser } from '../../actions';
 import './_login.scss';
 
-class Login extends PureComponent {
+class Login extends Component {
   constructor(props) {
     super(...props);
   }
@@ -25,14 +25,25 @@ class Login extends PureComponent {
     dispatch(setLoginState(userName, password));
   }
 
+  onClick() {
+    const { dispatch, userName, password } = this.props;
+    const user = Object.assign({}, { userName, password });
+    dispatch(loginUser(user));
+  }
+
   onSubmit(event) {
-    event.preventDefault();
+     event.preventDefault();
   }
 
   render() {
-    const { userName, password } = this.props;
-    return (<div className="login">
-      <Form title="Login" onSubmit={this.onSubmit}>
+    const { userName, password,
+      authenticated, error, inProgress } = this.props;
+    return (<div className={inProgress ? 'login loading' : 'login'}>
+      <div
+        className={inProgress
+            ? 'login__loader show'
+            : 'login__loader'}></div>
+      <Form title="Login" onSubmit={this.onSubmit.bind(this)}>
         <LoginInput
           id="username"
           type="text"
@@ -40,7 +51,7 @@ class Login extends PureComponent {
           onChange={this.onUserNameChange.bind(this)}
           placeholder="user name"
         >
-          <i className="fa fa-user"></i>
+          <i className="fun__input--fa fa fa-user"></i>
         </LoginInput>
         <LoginInput
           id="password"
@@ -49,9 +60,11 @@ class Login extends PureComponent {
           onChange={this.onPasswordChange.bind(this)}
           placeholder="password"
         >
-          <i className="fa fa-key"></i>
+          <i className="fun__input--fa fa fa-key"></i>
         </LoginInput>
-        <Button className="fun__button login__form__button">
+        <Button
+          className="fun__button login__form__button"
+          onClick={this.onClick.bind(this)}>
           <span className="login__form__button__span">Log in</span>
         </Button>
       </Form>
@@ -59,8 +72,14 @@ class Login extends PureComponent {
   }
 
   static propTypes = {
+    dispatch: PropTypes.func.isRequired,
     userName: PropTypes.string,
-    password: PropTypes.string
+    password: PropTypes.string,
+    authenticated: PropTypes.bool,
+    message: PropTypes.string,
+    error: PropTypes.any,
+    history: PropTypes.object.isRequired,
+    inProgress: PropTypes.bool
   };
 }
 

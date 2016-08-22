@@ -3,8 +3,6 @@ $primary: #2196F3;
 
 #container {
   position: relative;
-  // height: 800px;
-  // width: 1400px;
 }
 
 .fun {
@@ -30,4 +28,8 @@ $primary: #2196F3;
       color: #fff;
     }
   }
+}
+
+.show {
+  display: block !important;
 }
