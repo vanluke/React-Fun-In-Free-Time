@@ -5,13 +5,6 @@ import { AUTH_USER,
          PROTECTED_TEST } from '../actions';
 import reducer from './authentication-reducer';
 
-// const initialState = {
-//   error: '',
-//   message: '',
-//   content: '',
-//   authenticated: false
-// };
-
 describe('authentication reducer', () => {
   it('authenticated', () => {
     const state = {

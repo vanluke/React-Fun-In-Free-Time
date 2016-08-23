@@ -14,11 +14,39 @@ function original(userName, password) {
     password
   };
 }
+function storageMock() {
+  const storage = {};
+  return {
+    setItem(key, value) {
+      storage[key] = value || '';
+    },
+    getItem(key) {
+      return storage[key] || null;
+    },
+    removeItem(key) {
+      delete storage[key];
+    },
+    get length() {
+      return Object.keys(storage).length;
+    },
+    key(i) {
+      const keys = Object.keys(storage);
+      return keys[i] || null;
+    }
+  };
+}
+
 const dispatch = chai.spy(original);
 
 describe('login component', () => {
+  beforeEach(() => {
+    // mock the localStorage
+    window.localStorage = storageMock();
+    // mock the sessionStorage
+    window.sessionStorage = storageMock();
+  });
   it('renders', () => {
-    const component = renderIntoDocument(<Login />);
+    const component = renderIntoDocument(<Login dispatch={dispatch} />);
     // eslint-disable-next-line no-unused-expressions
     expect(component).to.be.ok;
   });
@@ -31,6 +59,6 @@ describe('login component', () => {
     // eslint-disable-next-line no-unused-expressions
     expect(form).to.be.ok;
     // eslint-disable-next-line no-unused-expressions
-    expect(dispatch).to.have.been.called.twice;
+    expect(dispatch).to.have.been.called.four;
   });
 });

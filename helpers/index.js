@@ -1,4 +1,5 @@
 import jsdom from 'jsdom';
+import 'babel-polyfill';
 import './middleware';
 import './ignore-styles';
 import virtualazeDom from './js-dom';
