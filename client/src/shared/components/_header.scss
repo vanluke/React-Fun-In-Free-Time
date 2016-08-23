@@ -1,0 +1,72 @@
+@import '../../mixins';
+
+.sidebar {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  &.active {
+    width: 220px;
+    .sidebar__nav {
+      width: 220px;
+    }
+  }
+  @include element('nav') {
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    left: 220px;
+    width: 0;
+    opacity: .9;
+    height: 100%;
+    margin-left: -220px;
+    overflow-y: auto;
+    background: #000000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    background: #000000;
+
+    @include element('title') {
+      font-size: 16px;
+      line-height: 50px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      color: #eee;
+      border-bottom: 1px solid #222;
+      background: #2a2a2a;
+    }
+
+    @include element('list') {
+      list-style: none;
+      overflow: hidden;
+      color: #fff;
+      top: 0;
+      bottom: 0;
+      padding: 0;
+      li {
+        text-indent: 20px;
+        line-height: 40px;
+        padding: 15px;
+        a {
+          font-size: 18px;
+          color: #999999;
+          &:focus {
+            text-decoration: none;
+          }
+          &:active {
+            text-decoration: none;
+          }
+          &:hover {
+
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          a { color: #fff; }
+          background: rgba(255,255,255,0.2);
+        }
+      }
+    }
+  }
+}
