@@ -3,7 +3,8 @@ import 'font-awesome/scss/font-awesome.scss';
 import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
-import { setLoginState, loginUser, checkAuthentication } from '../../actions';
+import { setLoginState, loginUser } from '../../actions';
+import { ApplicationModal } from '../../shared';
 import './_login.scss';
 
 class Login extends Component {
@@ -31,17 +32,12 @@ class Login extends Component {
     dispatch(loginUser(user));
   }
 
-  componentDidMount() {
-    const { dispatch, authenticated } = this.props;
-    dispatch(checkAuthentication(authenticated));
-  }
-
   onSubmit(event) {
     event.preventDefault();
   }
 
   render() {
-    const { userName, password,
+    const { userName, password, isOpen,
       error, inProgress } = this.props;
     return (<div className={inProgress ? 'login loading' : 'login'}>
       <div
@@ -73,6 +69,11 @@ class Login extends Component {
           <span className="login__form__button__span">Log in</span>
         </Button>
       </Form>
+      <ApplicationModal
+        isOpen={isOpen}
+        title="Error!"
+        message={error || ''}
+      />
     </div>);
   }
 
@@ -84,7 +85,8 @@ class Login extends Component {
     message: PropTypes.string,
     error: PropTypes.any,
     history: PropTypes.object.isRequired,
-    inProgress: PropTypes.bool
+    inProgress: PropTypes.bool,
+    isOpen: PropTypes.bool
   };
 }
 

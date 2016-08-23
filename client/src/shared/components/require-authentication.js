@@ -1,14 +1,12 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { checkAuthentication } from '../../actions';
 
 export default function(ComposedComponent) {
   class AuthenticatedComponent extends PureComponent {
     componentWillMount() {
-        console.log('componentWillMount', authenticated);
-      const { authenticated } = this.props;
-      if (!authenticated) {
-        this.context.router.push('/login');
-      }
+      const { authenticated, dispatch } = this.props;
+      dispatch(checkAuthentication(authenticated));
     }
 
     render() {
@@ -17,7 +15,15 @@ export default function(ComposedComponent) {
     }
 
     componentWillUpdate({ authenticated }) {
-      console.log('componentWillUpdate', authenticated);
+      const { dispatch } = this.props;
+      dispatch(checkAuthentication(authenticated));
+      if (!authenticated) {
+        this.context.router.push('/login');
+      }
+    }
+
+    componentWillReceiveProps(props) {
+      const { authenticated } = props;
       if (!authenticated) {
         this.context.router.push('/login');
       }

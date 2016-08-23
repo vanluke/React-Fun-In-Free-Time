@@ -1,4 +1,3 @@
-import { browserHistory } from 'react-router';
 import { authenticate } from '../login/services';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
@@ -8,6 +7,7 @@ import { SET_LOGIN_STATE,
   AUTH_USER,
   AUTH_ERROR,
   AUTH_IN_PROGRESS,
+  TOGGLE_MODAL,
   SIDEBAR_IS_OPEN } from './const';
 
 const tokenKey = 'user';
@@ -47,6 +47,7 @@ export function loginUser({ userName, password }) {
       window.location = 'http://localhost:3000/#/dashboard';
     }).catch(error => {
       dispatch(authenticationError(error));
+      dispatch(toggleModal(false));
     });
   };
 }
@@ -64,8 +65,14 @@ export const checkAuthentication = function() {
   return function(dispatch) {
     checkIfObjectIsEmpty(user).then(() => {
       dispatch(authenticateUser(user));
-      browserHistory.push('#/dashboard');
     }, () => {
     }).catch();
+  };
+};
+
+export const toggleModal = function(isOpen) {
+  return {
+    type: TOGGLE_MODAL,
+    isOpen
   };
 };

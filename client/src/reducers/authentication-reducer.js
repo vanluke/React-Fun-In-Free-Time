@@ -31,7 +31,7 @@ export default function(state = initialState, action = {}) {
     case AUTH_ERROR:
       return {
         ...state,
-        error: action.payload,
+        error: action.error,
         authenticated: false,
         inProgress: false
       };
