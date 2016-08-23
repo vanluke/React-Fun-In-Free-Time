@@ -37,12 +37,12 @@ class Login extends Component {
   }
 
   onSubmit(event) {
-     event.preventDefault();
+    event.preventDefault();
   }
 
   render() {
     const { userName, password,
-      authenticated, error, inProgress } = this.props;
+      error, inProgress } = this.props;
     return (<div className={inProgress ? 'login loading' : 'login'}>
       <div
         className={inProgress
