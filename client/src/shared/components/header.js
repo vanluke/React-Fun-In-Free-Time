@@ -1,7 +1,19 @@
 import React, { PropTypes } from 'react';
+import { Link } from 'react-router';
+
+const generateNavList = (navCollection) => {
+  return navCollection.map((nav) => {
+    return (<li className="sidebar__nav__list__li">
+      <Link
+        className="sidebar__nav__list__li__href"
+        activeClassName="sidebar__nav__list__li__href--active"
+        to={nav.link}>{nav.text}</Link>
+    </li>);
+  });
+};
 
 const Header = props => {
-  const { isVisible, toggleSideBar } = props;
+  const { isVisible, toggleSideBar, title, navCollection } = props;
   return (<div className={isVisible ? 'sidebar active' : 'sidebar'}>
     <div id="sidebar__hamburger" onClick={toggleSideBar}>
       <div
@@ -11,39 +23,13 @@ const Header = props => {
         data-menu="2">
         <div className="icon"></div>
       </div>
-      {/* <button
-        id="sidebar__hamburger__button"
-        className="sidebar__hamburger__button"></button> */}
     </div>
     <nav className="sidebar__nav">
       <div className="sidebar__nav__title">
-        Sidebar
+        {title}
       </div>
       <ul className="sidebar__nav__list">
-        <li>
-          <a>Dashboard</a>
-        </li>
-        <li>
-          <a>Statistics</a>
-        </li>
-        <li>
-          <a className="active">Milestones</a>
-        </li>
-        <li>
-          <a>Experiments</a>
-        </li>
-        <li>
-          <a>Previews</a>
-        </li>
-        <li>
-          <a>Assets</a>
-        </li>
-        <li>
-          <a>Settings</a>
-        </li>
-        <li>
-          <a>Logout</a>
-        </li>
+        {generateNavList(navCollection)}
       </ul>
     </nav>
   </div>);
@@ -51,7 +37,9 @@ const Header = props => {
 
 Header.propTypes = {
   isVisible: PropTypes.bool,
-  toggleSideBar: PropTypes.func
+  toggleSideBar: PropTypes.func,
+  title: PropTypes.string.isRequired,
+  navCollection: PropTypes.array.isRequired
 };
 
 export default Header;

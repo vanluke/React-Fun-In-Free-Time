@@ -44,13 +44,23 @@
       top: 0;
       bottom: 0;
       padding: 0;
-      li {
+
+      @include element('li') {
         text-indent: 20px;
         line-height: 40px;
         padding: 15px;
-        a {
+        &:hover {
+          cursor: pointer;
+          @include element('href') {
+            color: #fff;
+          }
+          background: rgba(255,255,255,0.2);
+        }
+
+        @include element('href') {
           font-size: 18px;
           color: #999999;
+          text-decoration: none;
           &:focus {
             text-decoration: none;
           }
@@ -60,11 +70,9 @@
           &:hover {
 
           }
-        }
-        &:hover {
-          cursor: pointer;
-          a { color: #fff; }
-          background: rgba(255,255,255,0.2);
+          @include modifier('active') {
+            color: #f0f111;
+          }
         }
       }
     }
