@@ -74,6 +74,7 @@
     "dot-notation": [2, {            // http://eslint.org/docs/rules/dot-notation
       "allowKeywords": true
     }],
+    "prefer-arrow-callback": 0,
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true }],
     "eqeqeq": 2,                     // http://eslint.org/docs/rules/eqeqeq
     "guard-for-in": 0,               // http://eslint.org/docs/rules/guard-for-in
