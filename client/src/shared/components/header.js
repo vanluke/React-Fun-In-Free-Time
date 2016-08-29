@@ -2,8 +2,8 @@ import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
 const generateNavList = (navCollection) => {
-  return navCollection.map((nav) => {
-    return (<li className="sidebar__nav__list__li">
+  return navCollection.map((nav, ind) => {
+    return (<li key={ind} className="sidebar__nav__list__li">
       <Link
         className="sidebar__nav__list__li__href"
         activeClassName="sidebar__nav__list__li__href--active"

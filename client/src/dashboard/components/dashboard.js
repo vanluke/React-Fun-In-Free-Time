@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default () => {
-  return <div>Welocome you are now authenticated!</div>;
+  return (<div className="container">
+    <div className="container__content">
+      Welocome you are now authenticated!
+    </div>
+  </div>);
 };

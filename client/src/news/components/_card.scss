@@ -27,6 +27,10 @@
     margin-top: .5rem;
     font-weight: b700;
     padding: 0 1rem;
+
+    @include element('href') {
+      text-decoration: none;
+    }
   }
 
   @include element('photo') {
