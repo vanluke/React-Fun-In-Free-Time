@@ -7,9 +7,9 @@ export { SET_LOGIN_STATE,
   RESET_PASSWORD_REQUEST,
   PROTECTED_TEST
 } from './const';
-
-export { setLoginState,
-  checkAuthentication,
-  loginUser,
-  toggleModal,
-  sideBarToggle } from './authentication-action-creators';
+// 
+// export { setLoginState,
+//   checkAuthentication,
+//   loginUser,
+//   toggleModal,
+//   sideBarToggle } from './authentication-action-creators';

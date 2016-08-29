@@ -3,7 +3,7 @@ import 'font-awesome/scss/font-awesome.scss';
 import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
-import { setLoginState, loginUser } from '../../actions';
+import { setLoginState, loginUser } from '../actions';
 import { ApplicationModal } from '../../shared';
 import './_login.scss';
 

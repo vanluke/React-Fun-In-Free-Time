@@ -1,14 +1,20 @@
-import { authenticate } from '../login/services';
-import { toggleModal } from '../shared/actions';
+import { SET_LOGIN_STATE,
+  AUTH_ERROR,
+  AUTH_USER,
+  AUTH_IN_PROGRESS } from './consts';
+import { authenticate } from '../services';
+import { toggleModal } from '../../shared/actions';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
-  checkIfObjectIsEmpty } from '../middleware';
+  checkIfObjectIsEmpty } from '../../middleware';
 
-import { AUTH_USER,
-  AUTH_ERROR,
-  AUTH_IN_PROGRESS
-} from '../login/actions';
-
+export const setLoginState = function(userName, password) {
+  return {
+    type: SET_LOGIN_STATE,
+    userName,
+    password
+  };
+};
 const tokenKey = 'user';
 
 export const authenticateUser = function(token) {
@@ -27,6 +33,16 @@ export const authenticationError = function(error) {
   };
 };
 
+export const checkAuthentication = function() {
+  const user = getItemFromLocalstorage('user');
+  return function(dispatch) {
+    checkIfObjectIsEmpty(user).then(() => {
+      dispatch(authenticateUser(user));
+    }, () => {
+    }).catch();
+  };
+};
+
 export function loginUser({ userName, password }) {
   return function(dispatch) {
     dispatch(Object.assign({}, {
@@ -42,13 +58,3 @@ export function loginUser({ userName, password }) {
     });
   };
 }
-
-export const checkAuthentication = function() {
-  const user = getItemFromLocalstorage('user');
-  return function(dispatch) {
-    checkIfObjectIsEmpty(user).then(() => {
-      dispatch(authenticateUser(user));
-    }, () => {
-    }).catch();
-  };
-};

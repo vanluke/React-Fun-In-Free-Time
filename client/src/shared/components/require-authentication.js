@@ -1,6 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { checkAuthentication } from '../../actions';
+import { checkAuthentication } from '../../login/actions';
 
 export default function(ComposedComponent) {
   class AuthenticatedComponent extends PureComponent {
