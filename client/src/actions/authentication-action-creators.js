@@ -7,8 +7,7 @@ import { SET_LOGIN_STATE,
   AUTH_USER,
   AUTH_ERROR,
   AUTH_IN_PROGRESS,
-  TOGGLE_MODAL,
-  SIDEBAR_IS_OPEN } from './const';
+  TOGGLE_MODAL } from './const';
 
 const tokenKey = 'user';
 
@@ -51,14 +50,6 @@ export function loginUser({ userName, password }) {
     });
   };
 }
-
-export const sideBarToggle = function(isVisible) {
-  return {
-    type: SIDEBAR_IS_OPEN,
-    isVisible
-  };
-};
-
 
 export const checkAuthentication = function() {
   const user = getItemFromLocalstorage('user');

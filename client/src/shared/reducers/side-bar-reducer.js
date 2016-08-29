@@ -4,7 +4,7 @@ const initialState = {
   isVisible: false
 };
 
-export default function(state = initialState, action) {
+export default function(state = initialState, action = {}) {
   switch (action.type) {
     case SIDEBAR_IS_OPEN:
       return Object.assign({}, {

@@ -1,5 +1,5 @@
 import React, { PropTypes, PureComponent } from 'react';
-import { sideBarToggle } from '../../actions';
+import { sideBarToggle } from '../actions';
 import './_header.scss';
 import './_app.scss';
 import './_hamburger.scss';

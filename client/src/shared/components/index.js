@@ -4,6 +4,7 @@ import { default as AppComponent } from './app';
 export { ApplicationModal } from './modal';
 
 function mapStateToProps(state) {
+  console.log(state);
   const { sideBarReducer } = state;
   return {
     isVisible: sideBarReducer.isVisible

@@ -6,8 +6,9 @@ export { SET_LOGIN_STATE,
   FORGOT_PASSWORD_REQUEST,
   RESET_PASSWORD_REQUEST,
   PROTECTED_TEST,
-  TOGGLE_MODAL,
-  SIDEBAR_IS_OPEN } from './const';
+  TOGGLE_MODAL
+} from './const';
+
 export { setLoginState,
   checkAuthentication,
   loginUser,
