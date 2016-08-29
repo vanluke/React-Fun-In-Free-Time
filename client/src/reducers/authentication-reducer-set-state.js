@@ -1,6 +1,11 @@
 import { SET_LOGIN_STATE } from '../actions';
 
-export default function(state = {}, action = {}) {
+const defaultState = {
+  userName: '',
+  password: ''
+};
+
+export default function(state = defaultState, action = {}) {
   switch (action.type) {
     case SET_LOGIN_STATE:
       return {

@@ -4,8 +4,9 @@
   "description": "Fun in the free time",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --port=3000 --inline --progress --hot --colors",
-    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --require ./helpers/index.js client/**/*.test.js --recursive",
+    "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --port=3000 --inline --progress --hot --colors",
+    "start:server": "NODE_ENV=development node server.js",
+    "test": "NODE_ENV=test node_modules/.bin/mocha --compilers js:babel-core/register --require ./helpers/index.js client/**/*.test.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
@@ -34,6 +35,7 @@
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
     "chai-spies": "^0.7.1",
+    "convict": "^1.4.0",
     "copy-webpack-plugin": "^3.0.1",
     "css-loader": "^0.23.1",
     "enzyme": "^2.4.1",
@@ -72,11 +74,19 @@
   "dependencies": {
     "font-awesome": "^4.6.3",
     "immutable": "^3.8.1",
+    "koa": "^1.2.1",
+    "koa-cors": "0.0.16",
+    "koa-json": "^1.1.3",
+    "koa-mount": "^1.3.0",
+    "koa-route": "^2.4.2",
+    "koa-router": "^5.4.0",
+    "node-babel": "^0.1.2",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.1",
     "redux": "^3.5.2",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0"
   }
 }

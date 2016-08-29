@@ -20,14 +20,14 @@ describe('authentication reducer', () => {
     expect(auth.authenticated).to.be.equal(true);
     expect(auth.error).to.be.equal('');
   });
-  it('returns error message when', () => {
+  it('returns error message', () => {
     const state = {
       userName: 'me',
       password: 'secret'
     };
     const action = {
       type: AUTH_ERROR,
-      payload: 'error'
+      error: 'error'
     };
     const auth = reducer(state, action);
     // eslint-disable-next-line no-unused-expressions

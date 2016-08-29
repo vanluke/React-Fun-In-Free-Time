@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import Container from './container';
 import './_modal.scss';
 import { toggleModal } from '../../../actions';
@@ -38,11 +38,11 @@ Error.propTypes = {
   title: PropTypes.string
 };
 
-function mapStateToProps(state) {
-  const { modalReducer } = state;
-  return {
-    isOpen: modalReducer.isOpen
-  };
-}
+// function mapStateToProps(state) {
+//   const { modalReducer } = state;
+//   return {
+//     isOpen: modalReducer.isOpen
+//   };
+// }
 
-export default connect(mapStateToProps)(Error);
+export default Error;// connect(mapStateToProps)(Error);
