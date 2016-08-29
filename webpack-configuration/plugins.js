@@ -18,8 +18,7 @@ export default [
     test: JSON.stringify(process.env.TEST || false)
   }),
   // new webpack.ProvidePlugin({
-  //   $: 'jquery',
-  //   jQuery: 'jquery'
+  //   fs: require('fs')
   // }),
   new Split([
     { name: 'vendor', path: [path.join(__dirname, '/node_modules/')] }

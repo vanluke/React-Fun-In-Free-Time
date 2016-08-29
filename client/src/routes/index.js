@@ -4,6 +4,7 @@ import React from 'react';
 import { App, NotFoundPage, Home, AuthenticatedComponent } from '../shared';
 import { Login } from '../login';
 import { Dashboard } from '../dashboard';
+import { News } from '../news';
 import { getItemFromLocalstorage } from '../middleware';
 
 const checkLoginRoute = function(prev, next) {
@@ -24,6 +25,7 @@ export const routes = (<Router history={hashHistory}>
     onEnter={checkLoginRoute}>
     <IndexRedirect to="/login" />
     <Route path="/login" component={Login} />
+    <Route path="/news" component={News} />
     <Route path="/home" component={AuthenticatedComponent(Home)} />
     <Route path="/dashboard" component={AuthenticatedComponent(Dashboard)} />
     <Route path="*" component={NotFoundPage} />

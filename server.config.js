@@ -41,7 +41,7 @@ const conf = convict({
   }
 });
 
-const env = conf.get('env');
+const env = conf.get('env') || 'development';
 conf.loadFile(`./config/${env}.json`);
 conf.validate({ strict: true });
 
