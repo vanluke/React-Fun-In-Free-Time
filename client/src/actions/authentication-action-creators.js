@@ -1,4 +1,5 @@
 import { authenticate } from '../login/services';
+import { toggleModal } from '../shared/actions';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
   checkIfObjectIsEmpty } from '../middleware';
@@ -6,8 +7,8 @@ import { setItemInLocalstorage,
 import { SET_LOGIN_STATE,
   AUTH_USER,
   AUTH_ERROR,
-  AUTH_IN_PROGRESS,
-  TOGGLE_MODAL } from './const';
+  AUTH_IN_PROGRESS
+ } from './const';
 
 const tokenKey = 'user';
 
@@ -58,12 +59,5 @@ export const checkAuthentication = function() {
       dispatch(authenticateUser(user));
     }, () => {
     }).catch();
-  };
-};
-
-export const toggleModal = function(isOpen) {
-  return {
-    type: TOGGLE_MODAL,
-    isOpen
   };
 };

@@ -1,8 +1,7 @@
 import React, { PropTypes } from 'react';
-// import { connect } from 'react-redux';
 import Container from './container';
 import './_modal.scss';
-import { toggleModal } from '../../../actions';
+import { toggleModal } from '../../actions';
 
 const transitionSettings = {
   enter: 'modal__enter',
@@ -38,11 +37,4 @@ Error.propTypes = {
   title: PropTypes.string
 };
 
-// function mapStateToProps(state) {
-//   const { modalReducer } = state;
-//   return {
-//     isOpen: modalReducer.isOpen
-//   };
-// }
-
-export default Error;// connect(mapStateToProps)(Error);
+export default Error;
