@@ -5,21 +5,22 @@ body {
   background: url('./assets/images/paris-843229_1280.jpg') no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
-}
-
-#container {
-  position: relative;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 .container {
-  background: #efefef;
-  height: 80%;
-  width: 75%;
-  margin: 0 auto;
+  position: relative;
 
   @include element('content') {
-    background: #fff;
-    padding: 10px;
+    background: #efefef;
+    height: 80%;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    min-height: 400px;
+    width: 1000px;
+    margin: auto auto;
   }
 }
 

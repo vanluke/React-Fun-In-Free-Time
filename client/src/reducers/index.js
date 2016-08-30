@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
-import authenticationReducer from './authentication-reducer';
-import { loginReducer } from '../login/reducers';
-import { sideBarReducer, modalReducer } from '../shared/reducers';
+import { loginReducer, authenticationReducer } from '../login/reducers';
+import { sideBarReducer,
+  modalReducer,
+  userNavInfoReducer } from '../shared/reducers';
 import { newsReducer } from '../news/reducers';
 
 export default combineReducers({
@@ -9,5 +10,6 @@ export default combineReducers({
   loginReducer,
   sideBarReducer,
   modalReducer,
-  newsReducer
+  newsReducer,
+  userNavInfoReducer
 });
