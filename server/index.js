@@ -7,7 +7,8 @@ process.on('uncaughtException', (err) => {
 });
 
 const appConfig = {
-  mount: `/api/v${config.get('version')}`
+  mount: `/api/v${config.get('version')}`,
+  secret: config.get('secret')
 };
 
 const port = config.get('port');
