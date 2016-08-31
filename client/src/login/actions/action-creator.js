@@ -1,6 +1,7 @@
 import { SET_LOGIN_STATE,
   AUTH_ERROR,
   AUTH_USER,
+  VALIDATE_APP_STATE,
   AUTH_IN_PROGRESS } from './consts';
 import { authenticate } from '../services';
 import { toggleModal } from '../../shared/actions';
@@ -51,10 +52,18 @@ export function loginUser({ userName, password }) {
     authenticate({ userName, password }).then((response) => {
       setItemInLocalstorage(tokenKey, response);
       dispatch(authenticateUser(response));
-      window.location = 'http://localhost:3000/#/dashboard';
+      window.location = 'http://localhost:3000/';
     }).catch(error => {
       dispatch(authenticationError(error));
       dispatch(toggleModal(false));
     });
   };
 }
+
+export const validateState = () => {
+  const user = getItemFromLocalstorage('user');
+  return {
+    type: VALIDATE_APP_STATE,
+    user
+  };
+};
