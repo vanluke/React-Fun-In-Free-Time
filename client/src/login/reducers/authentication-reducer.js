@@ -17,6 +17,7 @@ export default function(state = initialState, action = {}) {
     case AUTH_USER:
       return Object.assign({}, {
         ...state,
+        user: action.payload,
         inProgress: false,
         error: '',
         message: '',

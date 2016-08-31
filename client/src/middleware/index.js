@@ -1,3 +1,8 @@
+import jwtFactory from 'jwt-simple';
+import config from '../app.config';
+
+const secret = config.get('secret');
+
 export const removeFromLocalstorage = (key) => {
   window.localStorage.removeItem(key);
 };
@@ -18,4 +23,8 @@ export const checkIfObjectIsEmpty = (obj) => {
 export const getItemFromLocalstorage = (key) => {
   const token = window.localStorage.getItem(key);
   return JSON.parse(!!token ? token : `{}`);
+};
+
+export const readJWT = (jwt) => {
+  return jwtFactory.decode(jwt, secret);
 };

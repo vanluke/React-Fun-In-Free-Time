@@ -7,6 +7,7 @@ import { authenticate } from '../services';
 import { toggleModal } from '../../shared/actions';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
+  readJWT,
   checkIfObjectIsEmpty } from '../../middleware';
 
 export const setLoginState = function(userName, password) {
@@ -50,8 +51,9 @@ export function loginUser({ userName, password }) {
       type: AUTH_IN_PROGRESS
     }));
     authenticate({ userName, password }).then((response) => {
+      const readable = readJWT(response);
       setItemInLocalstorage(tokenKey, response);
-      dispatch(authenticateUser(response));
+      dispatch(authenticateUser(readable));
       window.location = 'http://localhost:3000/';
     }).catch(error => {
       dispatch(authenticationError(error));
@@ -62,8 +64,15 @@ export function loginUser({ userName, password }) {
 
 export const validateState = () => {
   const user = getItemFromLocalstorage('user');
+  if (Object.keys(user).length) {
+    const readable = readJWT(user);
+    return {
+      type: VALIDATE_APP_STATE,
+      user: readable
+    };
+  }
   return {
-    type: VALIDATE_APP_STATE,
-    user
+    type: AUTH_ERROR,
+    error: 'Not auth'
   };
 };

@@ -5,11 +5,11 @@ export const authenticate = (credentials) => {
   return window.fetch(`${url}`, {
     mode: 'cors',
     method: 'POST',
-    headers: new Headers({
-      'Content-Type': 'application/x-www-form-urlencoded'
-    }),
+    // headers: new Headers({
+    //   'Content-Type': 'application/x-www-form-urlencoded'
+    // }),
     body: JSON.stringify(credentials)
   })
-  .then(response => response.json())
+  .then(response => response.text())
   .then(token => token);
 };

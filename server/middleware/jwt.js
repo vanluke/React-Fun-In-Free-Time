@@ -4,7 +4,6 @@ import config from '../../server.config';
 const secret = config.get('secret');
 
 export const createJWT = (payload) => {
-  console.log(secret);
   return jwtFactory.encode(payload, secret);
 };
 

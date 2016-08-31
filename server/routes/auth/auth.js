@@ -29,7 +29,9 @@ const getEntity = ({ userName, password }) => {
 
 export const getToken = async function() {
   const body = await parse(this);
-  const entity = hashPassword(body);
+  const entity = hashPassword(typeof body === 'string'
+    ? JSON.parse(body)
+    : body);
   const user = await mdb(getEntity(entity));
   this.body = createJWT(user);
   this.status = 201;
@@ -67,7 +69,8 @@ const hashPassword = (entity) =>
 
 export const create = async function() {
   const body = await parse(this);
-  const entity = hashPassword(body);
+  const entity = hashPassword(typeof body === 'string'
+    ? JSON.parse(body) : body);
   const token = await mdb(insert(entity));
   this.body = 'User created successfuly!';
   this.status = 201;

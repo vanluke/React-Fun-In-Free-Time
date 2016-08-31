@@ -31,7 +31,6 @@ class App extends PureComponent {
 
   render() {
     const { isVisible, user, userInfoNavIsOpen } = this.props;
-    console.log(!!user);
     return (<div className="container">{!!user ?
       <UserInfo
         user={user}
