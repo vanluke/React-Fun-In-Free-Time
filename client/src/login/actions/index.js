@@ -5,10 +5,12 @@ export { SET_LOGIN_STATE,
   AUTH_ERROR,
   FORGOT_PASSWORD_REQUEST,
   RESET_PASSWORD_REQUEST,
-  PROTECTED_TEST
+  PROTECTED_TEST,
+  VALIDATE_APP_STATE
 } from './consts';
 export { setLoginState,
   checkAuthentication,
   loginUser,
   toggleModal,
+  validateState,
   sideBarToggle } from './action-creator';
