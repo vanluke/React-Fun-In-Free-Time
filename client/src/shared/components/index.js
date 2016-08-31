@@ -7,7 +7,7 @@ function mapStateToProps(state) {
   const { sideBarReducer, userNavInfoReducer } = state;
   return {
     isVisible: sideBarReducer.isVisible,
-    userInfoNav: userNavInfoReducer.isOpen
+    userInfoNavIsOpen: userNavInfoReducer.isOpen
   };
 }
 
