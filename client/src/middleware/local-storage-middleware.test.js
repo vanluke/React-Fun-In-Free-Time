@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-// import { spy, stub } from 'sinon';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
   checkIfObjectIsEmpty,
