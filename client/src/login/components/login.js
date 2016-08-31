@@ -4,6 +4,7 @@ import Button from '../../shared/button';
 import Form from './form';
 import LoginInput from './login-input';
 import { setLoginState, loginUser } from '../actions';
+import { toggleModal } from '../../shared/actions';
 import { ApplicationModal } from '../../shared';
 import './_login.scss';
 
@@ -30,6 +31,11 @@ class Login extends Component {
     const { dispatch, userName, password } = this.props;
     const user = Object.assign({}, { userName, password });
     dispatch(loginUser(user));
+  }
+
+  modalOnClose(isOpen) {
+    const { dispatch } = this.props;
+    dispatch(toggleModal(isOpen));
   }
 
   onSubmit(event) {
@@ -71,6 +77,7 @@ class Login extends Component {
       </Form>
       <ApplicationModal
         isOpen={isOpen}
+        onClose={this.modalOnClose.bind(this)}
         title="Error!"
         message={error || ''}
       />
