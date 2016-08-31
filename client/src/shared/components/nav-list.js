@@ -35,7 +35,7 @@ export const genereteNavigationForAnonymouse = () => {
 
 const NavList = props => {
   const { user } = props;
-  if (user.name) {
+  if (!!user) {
     return (<div>{genereteNavigationForLoggedUser()}</div>);
   }
   return (<div>{genereteNavigationForAnonymouse()}</div>);
