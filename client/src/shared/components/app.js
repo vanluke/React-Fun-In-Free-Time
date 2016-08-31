@@ -25,22 +25,21 @@ class App extends PureComponent {
   }
 
   toggleUserInfoNav() {
-    const { userInfoNav, dispatch } = this.props;
-    dispatch(toggleUserInfoNav(userInfoNav));
+    const { userInfoNavIsOpen, dispatch } = this.props;
+    dispatch(toggleUserInfoNav(userInfoNavIsOpen));
   }
 
   render() {
-    const { isVisible, userInfoNav } = this.props;
-    const user = {
-      name: 'zenon kozminski'
-    };
-    return (<div className="container">
+    const { isVisible, user, userInfoNavIsOpen } = this.props;
+    console.log(!!user);
+    return (<div className="container">{!!user ?
       <UserInfo
         user={user}
-        isOpen={userInfoNav}
+        isOpen={userInfoNavIsOpen}
         onClick={this.toggleUserInfoNav.bind(this)}>
         <NavInfo user={user}></NavInfo>
-      </UserInfo>
+      </UserInfo> : ''
+    }
       <Header>
         <Sidebar
           title="Sidebar"
@@ -55,7 +54,8 @@ class App extends PureComponent {
   static propTypes = {
     children: PropTypes.object.isRequired,
     isVisible: PropTypes.bool,
-    user: PropTypes.object
+    user: PropTypes.object,
+    userInfoNavIsOpen: PropTypes.bool
   };
 }
 
