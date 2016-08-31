@@ -20,7 +20,7 @@ const Container = props => {
 Container.propTypes = {
   isVisible: PropTypes.bool.isRequired,
   transitionName: PropTypes.object.isRequired,
-  children: PropTypes.array
+  children: PropTypes.any
 };
 
 export default Container;

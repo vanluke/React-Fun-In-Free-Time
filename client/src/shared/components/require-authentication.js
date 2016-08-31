@@ -1,46 +1,26 @@
-import React, { PureComponent, PropTypes } from 'react';
+import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { checkAuthentication } from '../../actions';
+import { validateState } from '../../login/actions';
 
 export default function(ComposedComponent) {
   class AuthenticatedComponent extends PureComponent {
     componentWillMount() {
-      const { authenticated, dispatch } = this.props;
-      dispatch(checkAuthentication(authenticated));
+      const { dispatch } = this.props;
+      dispatch(validateState());
     }
 
     render() {
       const { props } = this;
       return <ComposedComponent {...props} />;
     }
-
-    componentWillUpdate({ authenticated }) {
-      const { dispatch } = this.props;
-      dispatch(checkAuthentication(authenticated));
-      if (!authenticated) {
-        this.context.router.push('/login');
-      }
-    }
-
-    componentWillReceiveProps(props) {
-      const { authenticated } = props;
-      if (!authenticated) {
-        this.context.router.push('/login');
-      }
-    }
-
-    static contextTypes = {
-      router: PropTypes.object
-    };
-
-    static propTypes = {
-      authenticated: PropTypes.bool
-    };
   }
 
   function mapStateToProps(state) {
     const { authenticationReducer } = state;
-    return { authenticated: authenticationReducer.authenticated };
+    return {
+      authenticated: authenticationReducer.authenticated,
+      user: authenticationReducer.user
+    };
   }
 
   return connect(mapStateToProps)(AuthenticatedComponent);

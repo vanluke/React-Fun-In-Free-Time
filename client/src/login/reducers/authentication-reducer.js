@@ -1,6 +1,7 @@
 import { AUTH_USER,
          UNAUTH_USER,
          AUTH_IN_PROGRESS,
+         VALIDATE_APP_STATE,
          AUTH_ERROR,
          PROTECTED_TEST } from '../actions';
 
@@ -20,6 +21,12 @@ export default function(state = initialState, action = {}) {
         error: '',
         message: '',
         authenticated: true
+      });
+    case VALIDATE_APP_STATE:
+      return Object.assign({}, {
+        ...state,
+        user: action.user,
+        authenticated: !!action.user
       });
     case AUTH_IN_PROGRESS:
       return Object.assign({}, {

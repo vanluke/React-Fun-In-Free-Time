@@ -1,0 +1,94 @@
+@import '../../mixins';
+$bg: #2c2c2c;
+
+@keyframes glow {
+    from { opacity: 1; animation-timing-function: ease-in;}
+    50% { opacity: .2; animation-timing-function: ease-out;}
+    to { opacity: 1; animation-timing-function: ease-in;}
+}
+
+.container {
+  @include element('user') {
+    float: right;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    top: 30px;
+    .fa-chevron-left {
+      font-size: 15px;
+    }
+    @include element('label') {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    &.expand {
+      .container__user__name {
+        right: 100%;
+      }
+      .fa-chevron-left {
+        transform: rotate(180deg);
+      }
+      .container__user__nav {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+    }
+
+    @include element('nav') {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      padding: 0 15px;
+      transition: opacity 250ms;
+
+      a {
+        display: inline-block;
+        text-align: center;
+        min-width: 20px;
+        padding: 0 15px;
+        vertical-align: top;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: #636363;
+        }
+      }
+    }
+    &:not(.expand) {
+      .fa-chevron-left {
+        animation: glow 1.5s infinite;
+        display: inline-block;
+        transition: transform 250ms ease-in-out;
+      }
+    }
+
+    @include element('name') {
+      white-space: nowrap;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0 10px;
+      text-transform: capitalize;
+      z-index: 10;
+      transition: right 200ms ease;
+      box-sizing: border-box;
+      height: 100%;
+
+      &:hover {
+        color: #636363;
+        cursor: pointer;
+      }
+      @include element('span') {
+        @include modifier('name') {
+          font-size: 20px;
+        }
+      }
+    }
+    @include element('span') {
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+}

@@ -4,9 +4,10 @@ import { default as AppComponent } from './app';
 export { ApplicationModal } from './modal';
 
 function mapStateToProps(state) {
-  const { sideBarReducer } = state;
+  const { sideBarReducer, userNavInfoReducer } = state;
   return {
-    isVisible: sideBarReducer.isVisible
+    isVisible: sideBarReducer.isVisible,
+    userInfoNavIsOpen: userNavInfoReducer.isOpen
   };
 }
 

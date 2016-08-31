@@ -1,16 +1,13 @@
-import { authenticate } from '../login/services';
+import { SET_LOGIN_STATE,
+  AUTH_ERROR,
+  AUTH_USER,
+  VALIDATE_APP_STATE,
+  AUTH_IN_PROGRESS } from './consts';
+import { authenticate } from '../services';
+import { toggleModal } from '../../shared/actions';
 import { setItemInLocalstorage,
   getItemFromLocalstorage,
-  checkIfObjectIsEmpty } from '../middleware';
-
-import { SET_LOGIN_STATE,
-  AUTH_USER,
-  AUTH_ERROR,
-  AUTH_IN_PROGRESS,
-  TOGGLE_MODAL,
-  SIDEBAR_IS_OPEN } from './const';
-
-const tokenKey = 'user';
+  checkIfObjectIsEmpty } from '../../middleware';
 
 export const setLoginState = function(userName, password) {
   return {
@@ -19,6 +16,7 @@ export const setLoginState = function(userName, password) {
     password
   };
 };
+const tokenKey = 'user';
 
 export const authenticateUser = function(token) {
   return {
@@ -36,30 +34,6 @@ export const authenticationError = function(error) {
   };
 };
 
-export function loginUser({ userName, password }) {
-  return function(dispatch) {
-    dispatch(Object.assign({}, {
-      type: AUTH_IN_PROGRESS
-    }));
-    authenticate({ userName, password }).then((response) => {
-      setItemInLocalstorage(tokenKey, response);
-      dispatch(authenticateUser(response));
-      window.location = 'http://localhost:3000/#/dashboard';
-    }).catch(error => {
-      dispatch(authenticationError(error));
-      dispatch(toggleModal(false));
-    });
-  };
-}
-
-export const sideBarToggle = function(isVisible) {
-  return {
-    type: SIDEBAR_IS_OPEN,
-    isVisible
-  };
-};
-
-
 export const checkAuthentication = function() {
   const user = getItemFromLocalstorage('user');
   return function(dispatch) {
@@ -70,9 +44,26 @@ export const checkAuthentication = function() {
   };
 };
 
-export const toggleModal = function(isOpen) {
+export function loginUser({ userName, password }) {
+  return function(dispatch) {
+    dispatch(Object.assign({}, {
+      type: AUTH_IN_PROGRESS
+    }));
+    authenticate({ userName, password }).then((response) => {
+      setItemInLocalstorage(tokenKey, response);
+      dispatch(authenticateUser(response));
+      window.location = 'http://localhost:3000/';
+    }).catch(error => {
+      dispatch(authenticationError(error));
+      dispatch(toggleModal(false));
+    });
+  };
+}
+
+export const validateState = () => {
+  const user = getItemFromLocalstorage('user');
   return {
-    type: TOGGLE_MODAL,
-    isOpen
+    type: VALIDATE_APP_STATE,
+    user
   };
 };
