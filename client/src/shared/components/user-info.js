@@ -9,7 +9,7 @@ const UserNavInfo = props => {
       : 'container__user'}>
     <div className="container__user__name">
       <span className="container__user__name__span--name">
-        {user.name}
+        {user.userName}
       </span>&nbsp;
       <span className="fa fa-chevron-left"></span>
     </div>
@@ -18,7 +18,7 @@ const UserNavInfo = props => {
 };
 
 UserNavInfo.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.any.isRequired,
   user: PropTypes.object.isRequired,
   isOpen: PropTypes.bool,
   onClick: PropTypes.func.isRequired
