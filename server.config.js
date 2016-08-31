@@ -31,12 +31,44 @@ const conf = convict({
     default: '0',
     env: 'VERSION'
   },
+  secret: {
+    doc: 'Secrect.',
+    format: String,
+    default: '',
+    env: 'SECRET'
+  },
   ft: {
     url: {
       doc: 'Financial Times.',
       format: String,
       default: 'undefined',
       env: 'FT'
+    }
+  },
+  mongodb: {
+    url: {
+      doc: 'MongoDB address',
+      format: String,
+      default: 'undefined',
+      env: 'url'
+    },
+    pref: {
+      doc: 'MongoDB pref',
+      format: String,
+      default: 'mongodb://',
+      env: 'pref'
+    },
+    user: {
+      doc: 'MongoDB user',
+      format: String,
+      default: 'undefined',
+      env: 'user'
+    },
+    pass: {
+      doc: 'MongoDB pass',
+      format: String,
+      default: 'undefined',
+      env: 'pass'
     }
   }
 });
