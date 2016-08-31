@@ -7,3 +7,4 @@ export const RESET_PASSWORD_REQUEST = 'reset_password_request';
 export const PROTECTED_TEST = 'protected_test';
 export const AUTH_IN_PROGRESS = 'in_progress';
 export const CHECK_IS_AUTH = 'get_token';
+export const VALIDATE_APP_STATE = 'validate_app';
