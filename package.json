@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --port=3000 --inline --progress --hot --colors",
-    "start:server": "NODE_ENV=development node server.js",
+    "start:server": "NODE_ENV=development node_modules/.bin/nodemon server.js",
     "test": "NODE_ENV=test node_modules/.bin/mocha --compilers js:babel-core/register --require ./helpers/index.js client/**/*.test.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
@@ -54,6 +54,7 @@
     "json-loader": "^0.5.4",
     "mocha": "^3.0.0",
     "node-sass": "^3.8.0",
+    "nodemon": "^1.10.2",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
     "raw-loader": "^0.5.1",
@@ -72,14 +73,18 @@
     "webpack-split-by-path": "^0.1.0"
   },
   "dependencies": {
+    "co-body": "^4.2.0",
     "font-awesome": "^4.6.3",
     "immutable": "^3.8.1",
+    "jwt-simple": "^0.5.0",
     "koa": "^1.2.1",
     "koa-cors": "0.0.16",
     "koa-json": "^1.1.3",
+    "koa-jwt": "^1.2.0",
     "koa-mount": "^1.3.0",
     "koa-route": "^2.4.2",
     "koa-router": "^5.4.0",
+    "mongodb": "^2.2.9",
     "node-babel": "^0.1.2",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
@@ -87,6 +92,7 @@
     "react-router": "^2.6.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
+    "sha256": "^0.2.0",
     "whatwg-fetch": "^1.0.0"
   }
 }
