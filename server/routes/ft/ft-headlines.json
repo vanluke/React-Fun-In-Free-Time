@@ -1,0 +1,5040 @@
+{
+   "requestUrl":"http://api.ft.com/site/v1/pages/4c499f12-4e94-11de-8d4c-00144feabdc0/main-content",
+   "total":15,
+   "page":{
+      "id":"4c499f12-4e94-11de-8d4c-00144feabdc0",
+      "title":"Front page",
+      "apiUrl":"http://api.ft.com/site/v1/pages/4c499f12-4e94-11de-8d4c-00144feabdc0",
+      "webUrl":"http://www.ft.com/home/uk"
+   },
+   "pageItemsListName":"main-content",
+   "pageItems":[
+      {
+         "id":"54edbc7c-7446-11e6-b60a-de4532d5ea35",
+         "title":{
+            "title":"Davis single-market view ‘not government policy’"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T17:17:47Z",
+            "lastPublishDateTime":"2016-09-06T17:17:47Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/54edbc7c-7446-11e6-b60a-de4532d5ea35.html"
+         },
+         "editorial":{
+            "subheading":"May distances herself from new Brexit secretary’s comments",
+            "standFirst":"Theresa May distances herself from her new Brexit secretary’s comments",
+            "byline":"Jim Pickard and Helen Warrell"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"UK Politics & Policy",
+                  "id":"OA==-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Brexit",
+                  "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Brexit",
+                     "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European_Union",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"House_of_Commons_UK",
+                     "attributes":[
+
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Jim Pickard",
+                     "id":"Q0ItMDAwMDgzNQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Helen Warrell",
+                     "id":"Q0ItMDAwMTI1Mg==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"11006001 - civil and public service",
+                     "id":"MTEwMDYwMDE=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11006007 - government departments",
+                     "id":"MTEwMDYwMDc=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11006009 - ministers (government)",
+                     "id":"MTEwMDYwMDk=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11009001 - upper house",
+                     "id":"MTEwMDkwMDE=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11009002 - lower house",
+                     "id":"MTEwMDkwMDI=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"House of Commons UK",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTU0NzY2-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"House of Lords",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTU0Nzgw-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European Union",
+                     "id":"VC0xNDcyNTI3-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"Robert Goodwill",
+                     "id":"TnN0ZWluX1BOX1BvbGl0aWNpYW5fMzg3-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Theresa May",
+                     "id":"TnN0ZWluX1BOX1BvbGl0aWNpYW5fNTYx-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"David Davis",
+                     "id":"VUstcGFybGlhbWVudF9QTl8yMg==-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"United Kingdom",
+                     "id":"TnN0ZWluX0dMX0dC-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Brussels",
+                     "id":"MTA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK",
+                     "id":"Ng==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"OQ==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Brexit",
+                     "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/dd543b87-373c-4676-9b9c-06b897e26e45.img",
+               "type":"primary",
+               "source":"AFP",
+               "alt":"A video grab from footage broadcast by the UK Parliament's Parliamentary Recording Unit (PRU) shows British Secretary of State for Exiting the European Union (Brexit Minister) David Davis as he speaks in the House of Commons in London on September 5, 2016. Britain's Prime Minister Theresa May sought to drum up trade deals on Monday for a post-Brexit world as she faced increasing pressure to define what that would look like. Dozens of pro-Brexit campaigners rallied outside parliament as Davis spoke and MPs held a separate, non-binding debate on a second EU referendum triggered after four million people signed a petition. / AFP PHOTO / PRU AND AFP PHOTO / JUSTIN TALLIS / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT \" AFP PHOTO / PRU \" - NO MARKETING NO ADVERTISING CAMPAIGNS - NO RESALE - NO DISTRIBUTION TO THIRD PARTIES - 24 HOURS USE - NO ARCHIVES JUSTIN TALLIS/AFP/Getty Images",
+               "caption":"David Davis has said the UK will make a decision on whether or not to leave the EU’s customs union before Article 50",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/057fc942-5d5d-4101-a4e2-8f3e3dd52f2d.img",
+               "type":"secondary",
+               "source":"AFP",
+               "alt":"A video grab from footage broadcast by the UK Parliament's Parliamentary Recording Unit (PRU) shows British Secretary of State for Exiting the European Union (Brexit Minister) David Davis as he speaks in the House of Commons in London on September 5, 2016. Britain's Prime Minister Theresa May sought to drum up trade deals on Monday for a post-Brexit world as she faced increasing pressure to define what that would look like. Dozens of pro-Brexit campaigners rallied outside parliament as Davis spoke and MPs held a separate, non-binding debate on a second EU referendum triggered after four million people signed a petition. / AFP PHOTO / PRU AND AFP PHOTO / JUSTIN TALLIS / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT \" AFP PHOTO / PRU \" - NO MARKETING NO ADVERTISING CAMPAIGNS - NO RESALE - NO DISTRIBUTION TO THIRD PARTIES - 24 HOURS USE - NO ARCHIVES JUSTIN TALLIS/AFP/Getty Images",
+               "caption":"David Davis has said the UK will make a decision on whether or not to leave the EU’s customs union before Article 50",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/088fd0a9-e4f2-4101-81a2-b4875eab2bef.img",
+               "type":"wide-format",
+               "source":"AFP",
+               "alt":"A video grab from footage broadcast by the UK Parliament's Parliamentary Recording Unit (PRU) shows British Secretary of State for Exiting the European Union (Brexit Minister) David Davis as he speaks in the House of Commons in London on September 5, 2016. Britain's Prime Minister Theresa May sought to drum up trade deals on Monday for a post-Brexit world as she faced increasing pressure to define what that would look like. Dozens of pro-Brexit campaigners rallied outside parliament as Davis spoke and MPs held a separate, non-binding debate on a second EU referendum triggered after four million people signed a petition. / AFP PHOTO / PRU AND AFP PHOTO / JUSTIN TALLIS / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT \" AFP PHOTO / PRU \" - NO MARKETING NO ADVERTISING CAMPAIGNS - NO RESALE - NO DISTRIBUTION TO THIRD PARTIES - 24 HOURS USE - NO ARCHIVES JUSTIN TALLIS/AFP/Getty Images",
+               "caption":"David Davis has said the UK will make a decision on whether or not to leave the EU’s customs union before Article 50",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/528130dc-9364-46cf-9050-4b0473c26b3d.img",
+               "type":"leader",
+               "source":"AFP",
+               "alt":"A video grab from footage broadcast by the UK Parliament's Parliamentary Recording Unit (PRU) shows British Secretary of State for Exiting the European Union (Brexit Minister) David Davis as he speaks in the House of Commons in London on September 5, 2016. Britain's Prime Minister Theresa May sought to drum up trade deals on Monday for a post-Brexit world as she faced increasing pressure to define what that would look like. Dozens of pro-Brexit campaigners rallied outside parliament as Davis spoke and MPs held a separate, non-binding debate on a second EU referendum triggered after four million people signed a petition. / AFP PHOTO / PRU AND AFP PHOTO / JUSTIN TALLIS / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT \" AFP PHOTO / PRU \" - NO MARKETING NO ADVERTISING CAMPAIGNS - NO RESALE - NO DISTRIBUTION TO THIRD PARTIES - 24 HOURS USE - NO ARCHIVES JUSTIN TALLIS/AFP/Getty Images",
+               "caption":"David Davis has said the UK will make a decision on whether or not to leave the EU’s customs union before Article 50",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/1207ab08-202b-4a15-9ac0-5792cce59239.img",
+               "type":"article",
+               "source":"AFP",
+               "alt":"A video grab from footage broadcast by the UK Parliament's Parliamentary Recording Unit (PRU) shows British Secretary of State for Exiting the European Union (Brexit Minister) David Davis as he speaks in the House of Commons in London on September 5, 2016. Britain's Prime Minister Theresa May sought to drum up trade deals on Monday for a post-Brexit world as she faced increasing pressure to define what that would look like. Dozens of pro-Brexit campaigners rallied outside parliament as Davis spoke and MPs held a separate, non-binding debate on a second EU referendum triggered after four million people signed a petition. / AFP PHOTO / PRU AND AFP PHOTO / JUSTIN TALLIS / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT \" AFP PHOTO / PRU \" - NO MARKETING NO ADVERTISING CAMPAIGNS - NO RESALE - NO DISTRIBUTION TO THIRD PARTIES - 24 HOURS USE - NO ARCHIVES JUSTIN TALLIS/AFP/Getty Images",
+               "caption":"David Davis has said the UK will make a decision on whether or not to leave the EU’s customs union before Article 50",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/54edbc7c-7446-11e6-b60a-de4532d5ea35",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"0bd39a7a-743c-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Sports Direct board set for showdown at AGM"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-07T04:03:43Z",
+            "lastPublishDateTime":"2016-09-07T04:03:43Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/0bd39a7a-743c-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Directors face protests but investors say Ashley’s associates wield power",
+            "standFirst":"Directors to face protests but investors say Mike Ashley’s close associates wield power",
+            "byline":"Mark Vandevelde"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Retail",
+                  "id":"NDg=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Sports Direct International PLC",
+                  "id":"T05fTFNFX3RpY2tlcnNfZmV2LTIwMDhfMjIwMQ==-T04=",
+                  "attributes":[
+                     {
+                        "key":"wsod_key",
+                        "value":"uk:SPD"
+                     },
+                     {
+                        "key":"is_company",
+                        "value":"true"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Retail",
+                     "id":"NDg=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Sports Direct International PLC",
+                     "id":"T05fTFNFX3RpY2tlcnNfZmV2LTIwMDhfMjIwMQ==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"uk:SPD"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Analysis",
+                     "id":"MQ==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Sports Direct International PLC",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"uk:SPD"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Mark Vandevelde",
+                     "id":"Q0ItMDMzNDc4Mg==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"Analysis",
+                     "id":"MQ==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04016000 - company information",
+                     "id":"MDQwMTYwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"04016047 - shareholders",
+                     "id":"MDQwMTYwNDc=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Sports Direct International PLC",
+                     "id":"T05fTFNFX3RpY2tlcnNfZmV2LTIwMDhfMjIwMQ==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"uk:SPD"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Retail & Consumer",
+                     "id":"NDU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Retail",
+                     "id":"NDg=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/3919283d-09ae-4be7-8821-cb2d7acb534d.img",
+               "type":"primary",
+               "alt":"Keith Hellawell",
+               "caption":"Sports Direct chairman Keith Hellawell. He was opposed by 24 per cent of independent Sports Direct investors at last year's annual general meeting",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/8c02e09c-6224-46c0-8c82-7c033313f125.img",
+               "type":"secondary",
+               "alt":"Keith Hellawell",
+               "caption":"Sports Direct chairman Keith Hellawell. He was opposed by 24 per cent of independent Sports Direct investors at last year's annual general meeting",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/7127a7b9-dcad-4fd4-b9d6-f2fe67b958dc.img",
+               "type":"wide-format",
+               "alt":"Keith Hellawell",
+               "caption":"Sports Direct chairman Keith Hellawell. He was opposed by 24 per cent of independent Sports Direct investors at last year's annual general meeting",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/bc1b6de2-b400-493b-b956-d31957717c58.img",
+               "type":"leader",
+               "alt":"Keith Hellawell",
+               "caption":"Sports Direct chairman Keith Hellawell. He was opposed by 24 per cent of independent Sports Direct investors at last year's annual general meeting",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/4a0aefcb-2cb0-4934-a69c-b5c2a9380662.img",
+               "type":"article",
+               "alt":"Keith Hellawell",
+               "caption":"Sports Direct chairman Keith Hellawell. He was opposed by 24 per cent of independent Sports Direct investors at last year's annual general meeting",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/0bd39a7a-743c-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"9219b46c-7422-11e6-b60a-de4532d5ea35",
+         "title":{
+            "title":"Bayer urged to raise Monsanto bid again"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T16:06:14Z",
+            "lastPublishDateTime":"2016-09-06T16:06:14Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/9219b46c-7422-11e6-b60a-de4532d5ea35.html"
+         },
+         "editorial":{
+            "subheading":"Investors say German company needs to boost offer to $130 a share",
+            "standFirst":"Investors say German company will need to increase offer to $130 a share to secure a takeover",
+            "byline":"Guy Chazan in Berlin and James Fontanella-Khan in New York"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Chemicals",
+                  "id":"MzU=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Bayer AG",
+                  "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0JBWQ==-T04=",
+                  "attributes":[
+                     {
+                        "key":"wsod_key",
+                        "value":"de:BAYN"
+                     },
+                     {
+                        "key":"is_company",
+                        "value":"true"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Chemicals",
+                     "id":"MzU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Bayer AG",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0JBWQ==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"de:BAYN"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Monsanto Co",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:MON"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Bayer AG",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"de:BAYX"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"James Fontanella-Khan",
+                     "id":"Q0ItMDAwMDc1MA==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Guy Chazan",
+                     "id":"Q0ItMDAwMTg1OA==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Monsanto Co",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMzkwNA==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"us:MON"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Bayer AG",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0JBWQ==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"de:BAYN"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Industrials",
+                     "id":"MzQ=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Chemicals",
+                     "id":"MzU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US & Canadian Companies",
+                     "id":"NjU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European Companies",
+                     "id":"NjY=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Mergers & Acquisitions",
+                     "id":"Mjk=-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/50043970-88af-4541-be4a-5f8169120314.img",
+               "type":"primary",
+               "source":"Getty",
+               "alt":"Inside the Greenhouses of Monsanto...ST LOUIS, MISSOURI, MAY 2009: Research Biologist Heidi Windler takes tissue samples from genetically modified corn plants inside a climate chamber housed in Monsanto agribusiness headquarters in St Louis, Missouri, 21 May 2009. Windler is attempting to breed a Corn Root Worm resistant strain of corn which will one day form the basis of a root worm resistant corn crop of the future. Monsanto is at the forefront of biotechnology in the agribusiness sector. These climate chambers are designed and built inhouse and they allow the technicans to monitor plant growth daily. These plants are monitored for the perfect DNA of an elite corn seed and then those plants that make the grade are forwarded to the next stage of the selection process. Monsanto is a controversial global corporate with a history of strong litigation against those it assumes are interfering with its stringent patent laws. This practise as well as its advanced genetically modified technology approach in the agricultural sector have led many to be suspicious of Monsanto and the ultimate good of GM foods. Monsanto argues back that sufficent food production for the future is simply not possible without adequate GM technology in agriculture. (Photograph by Brent Stirton/Getty Images.)",
+               "caption":"A Monsanto greenhouse for genetically-modified corn plants at its HQ in St Louis, Missouri",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/c615b749-3366-493b-9ca6-e7b300e2bf36.img",
+               "type":"secondary",
+               "source":"Getty",
+               "alt":"Inside the Greenhouses of Monsanto...ST LOUIS, MISSOURI, MAY 2009: Research Biologist Heidi Windler takes tissue samples from genetically modified corn plants inside a climate chamber housed in Monsanto agribusiness headquarters in St Louis, Missouri, 21 May 2009. Windler is attempting to breed a Corn Root Worm resistant strain of corn which will one day form the basis of a root worm resistant corn crop of the future. Monsanto is at the forefront of biotechnology in the agribusiness sector. These climate chambers are designed and built inhouse and they allow the technicans to monitor plant growth daily. These plants are monitored for the perfect DNA of an elite corn seed and then those plants that make the grade are forwarded to the next stage of the selection process. Monsanto is a controversial global corporate with a history of strong litigation against those it assumes are interfering with its stringent patent laws. This practise as well as its advanced genetically modified technology approach in the agricultural sector have led many to be suspicious of Monsanto and the ultimate good of GM foods. Monsanto argues back that sufficent food production for the future is simply not possible without adequate GM technology in agriculture. (Photograph by Brent Stirton/Getty Images.)",
+               "caption":"A Monsanto greenhouse for genetically-modified corn plants at its HQ in St Louis, Missouri",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/916e6725-934f-4a41-8857-339bebe9ee20.img",
+               "type":"wide-format",
+               "source":"Getty",
+               "alt":"Inside the Greenhouses of Monsanto...ST LOUIS, MISSOURI, MAY 2009: Research Biologist Heidi Windler takes tissue samples from genetically modified corn plants inside a climate chamber housed in Monsanto agribusiness headquarters in St Louis, Missouri, 21 May 2009. Windler is attempting to breed a Corn Root Worm resistant strain of corn which will one day form the basis of a root worm resistant corn crop of the future. Monsanto is at the forefront of biotechnology in the agribusiness sector. These climate chambers are designed and built inhouse and they allow the technicans to monitor plant growth daily. These plants are monitored for the perfect DNA of an elite corn seed and then those plants that make the grade are forwarded to the next stage of the selection process. Monsanto is a controversial global corporate with a history of strong litigation against those it assumes are interfering with its stringent patent laws. This practise as well as its advanced genetically modified technology approach in the agricultural sector have led many to be suspicious of Monsanto and the ultimate good of GM foods. Monsanto argues back that sufficent food production for the future is simply not possible without adequate GM technology in agriculture. (Photograph by Brent Stirton/Getty Images.)",
+               "caption":"A Monsanto greenhouse for genetically-modified corn plants at its HQ in St Louis, Missouri",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/40510d20-f73e-4402-b641-0d1125a8a663.img",
+               "type":"leader",
+               "source":"Getty",
+               "alt":"Inside the Greenhouses of Monsanto...ST LOUIS, MISSOURI, MAY 2009: Research Biologist Heidi Windler takes tissue samples from genetically modified corn plants inside a climate chamber housed in Monsanto agribusiness headquarters in St Louis, Missouri, 21 May 2009. Windler is attempting to breed a Corn Root Worm resistant strain of corn which will one day form the basis of a root worm resistant corn crop of the future. Monsanto is at the forefront of biotechnology in the agribusiness sector. These climate chambers are designed and built inhouse and they allow the technicans to monitor plant growth daily. These plants are monitored for the perfect DNA of an elite corn seed and then those plants that make the grade are forwarded to the next stage of the selection process. Monsanto is a controversial global corporate with a history of strong litigation against those it assumes are interfering with its stringent patent laws. This practise as well as its advanced genetically modified technology approach in the agricultural sector have led many to be suspicious of Monsanto and the ultimate good of GM foods. Monsanto argues back that sufficent food production for the future is simply not possible without adequate GM technology in agriculture. (Photograph by Brent Stirton/Getty Images.)",
+               "caption":"A Monsanto greenhouse for genetically-modified corn plants at its HQ in St Louis, Missouri",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/1463aa0a-60d7-43cb-9e0e-058f4dd983e6.img",
+               "type":"article",
+               "source":"Getty",
+               "alt":"Inside the Greenhouses of Monsanto...ST LOUIS, MISSOURI, MAY 2009: Research Biologist Heidi Windler takes tissue samples from genetically modified corn plants inside a climate chamber housed in Monsanto agribusiness headquarters in St Louis, Missouri, 21 May 2009. Windler is attempting to breed a Corn Root Worm resistant strain of corn which will one day form the basis of a root worm resistant corn crop of the future. Monsanto is at the forefront of biotechnology in the agribusiness sector. These climate chambers are designed and built inhouse and they allow the technicans to monitor plant growth daily. These plants are monitored for the perfect DNA of an elite corn seed and then those plants that make the grade are forwarded to the next stage of the selection process. Monsanto is a controversial global corporate with a history of strong litigation against those it assumes are interfering with its stringent patent laws. This practise as well as its advanced genetically modified technology approach in the agricultural sector have led many to be suspicious of Monsanto and the ultimate good of GM foods. Monsanto argues back that sufficent food production for the future is simply not possible without adequate GM technology in agriculture. (Photograph by Brent Stirton/Getty Images.)",
+               "caption":"A Monsanto greenhouse for genetically-modified corn plants at its HQ in St Louis, Missouri",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/9219b46c-7422-11e6-b60a-de4532d5ea35",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"2b3a6adc-7429-11e6-b60a-de4532d5ea35",
+         "title":{
+            "title":"Vaz resigns from home affairs committee"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T12:44:31Z",
+            "lastPublishDateTime":"2016-09-06T16:47:46Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/2b3a6adc-7429-11e6-b60a-de4532d5ea35.html"
+         },
+         "editorial":{
+            "subheading":"Labour veteran quits after allegations he paid male escorts for sex",
+            "standFirst":"Labour veteran quits after allegations he paid male escorts for sex",
+            "byline":"Jim Pickard, Chief Political Correspondent"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"UK Politics & Policy",
+                  "id":"OA==-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Keith Vaz",
+                  "id":"VUstcGFybGlhbWVudF9QTl81NQ==-UE4=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"people"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Keith Vaz",
+                     "id":"VUstcGFybGlhbWVudF9QTl81NQ==-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Jim Pickard",
+                     "id":"Q0ItMDAwMDgzNQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"11006009 - ministers (government)",
+                     "id":"MTEwMDYwMDk=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11009002 - lower house",
+                     "id":"MTEwMDkwMDI=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Labour Party UK",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTg5OTQy-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"Keith Vaz",
+                     "id":"VUstcGFybGlhbWVudF9QTl81NQ==-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"UK",
+                     "id":"Ng==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/0fca40c0-52b4-4281-9da8-c4937cabdb74.img",
+               "type":"primary",
+               "source":"Reuters",
+               "alt":"Keith Vaz leaving his home on Tuesday",
+               "caption":"Keith Vaz leaving his home on Tuesday",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/cc3049c1-5415-48d8-b1e3-5966c80e47b4.img",
+               "type":"secondary",
+               "source":"Reuters",
+               "alt":"Keith Vaz leaving his home on Tuesday",
+               "caption":"Keith Vaz leaving his home on Tuesday",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/41d3c83e-7b99-4e6a-a363-97b60f2d1b4d.img",
+               "type":"wide-format",
+               "source":"Reuters",
+               "alt":"Keith Vaz leaving his home on Tuesday",
+               "caption":"Keith Vaz leaving his home on Tuesday",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/8a909af6-8a27-430b-b5dc-aa3a0d4cd016.img",
+               "type":"leader",
+               "source":"Reuters",
+               "alt":"Keith Vaz leaving his home on Tuesday",
+               "caption":"Keith Vaz leaving his home on Tuesday",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/7157c2fc-cbfb-4445-8c77-67bcee98da7a.img",
+               "type":"article",
+               "source":"Reuters",
+               "alt":"Keith Vaz leaving his home on Tuesday",
+               "caption":"Keith Vaz leaving his home on Tuesday",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/2b3a6adc-7429-11e6-b60a-de4532d5ea35",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"bdf6ffac-7424-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"IT glitch and protest disrupt BA flights"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T12:26:28Z",
+            "lastPublishDateTime":"2016-09-06T12:26:28Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/bdf6ffac-7424-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Thousands of passengers delayed as operations suspended",
+            "standFirst":"Thousands of passengers delayed as City Airport is forced to suspend operations",
+            "byline":"Robert Wright, Transport Correspondent"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Airlines",
+                  "id":"NDI=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"British Airways PLC",
+                  "id":"TnN0ZWluX09OX0FGVE1fT05fNTY2MDk=-T04=",
+                  "attributes":[
+                     {
+                        "key":"is_company",
+                        "value":"true"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Airlines",
+                     "id":"NDI=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"British Airways PLC",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fNTY2MDk=-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"British_Airways_PLC",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Delta Air Lines Inc",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:DAL"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"United Air Lines Inc",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"International Consolidated Airlines Group SA",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"uk:IAG"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Southwest Airlines Co",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:LUV"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Robert Wright",
+                     "id":"Q0ItMDAwMDkwMQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+               {
+                  "term":{
+                     "name":"5751 Airlines",
+                     "id":"MTE4-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               }
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04015000 - transport",
+                     "id":"MDQwMTUwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"British Airways PLC",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fNTY2MDk=-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Transport",
+                     "id":"NDE=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Airlines",
+                     "id":"NDI=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/adc8fa54-7cfb-4b80-9f7b-8ad79769da27.img",
+               "type":"primary",
+               "source":"PA",
+               "alt":"NOTE ALTERNATE CROP Handout photo issued by Black Lives Matter UK of protesters after they stormed the runway at London City Airport. PRESS ASSOCIATION Photo. Picture date: Tuesday September 6, 2016. Flights were disrupted at the airport, in the Royal Docks area of the capital, after activists apparently in support of the Black Lives Matter movement made their way air-side at around 5.40am on Tuesday. See PA story AIR City. Photo credit should read: Jonathan Goldberg/Black Lives Matter UK /PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"Activists from the Black Lives Matter (UK) movement staged a protest on a runway at London City Airport on Tuesday",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/121886c3-19ee-441b-85b6-bd6c7c080fcb.img",
+               "type":"secondary",
+               "source":"PA",
+               "alt":"NOTE ALTERNATE CROP Handout photo issued by Black Lives Matter UK of protesters after they stormed the runway at London City Airport. PRESS ASSOCIATION Photo. Picture date: Tuesday September 6, 2016. Flights were disrupted at the airport, in the Royal Docks area of the capital, after activists apparently in support of the Black Lives Matter movement made their way air-side at around 5.40am on Tuesday. See PA story AIR City. Photo credit should read: Jonathan Goldberg/Black Lives Matter UK /PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"Activists from the Black Lives Matter (UK) movement staged a protest on a runway at London City Airport on Tuesday",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/20eb46d6-3b41-4e3e-97b6-3a654f267be2.img",
+               "type":"wide-format",
+               "source":"PA",
+               "alt":"NOTE ALTERNATE CROP Handout photo issued by Black Lives Matter UK of protesters after they stormed the runway at London City Airport. PRESS ASSOCIATION Photo. Picture date: Tuesday September 6, 2016. Flights were disrupted at the airport, in the Royal Docks area of the capital, after activists apparently in support of the Black Lives Matter movement made their way air-side at around 5.40am on Tuesday. See PA story AIR City. Photo credit should read: Jonathan Goldberg/Black Lives Matter UK /PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"Activists from the Black Lives Matter (UK) movement staged a protest on a runway at London City Airport on Tuesday",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/28faba03-5029-4ad3-8ebf-bf2fcbe33f77.img",
+               "type":"leader",
+               "source":"PA",
+               "alt":"NOTE ALTERNATE CROP Handout photo issued by Black Lives Matter UK of protesters after they stormed the runway at London City Airport. PRESS ASSOCIATION Photo. Picture date: Tuesday September 6, 2016. Flights were disrupted at the airport, in the Royal Docks area of the capital, after activists apparently in support of the Black Lives Matter movement made their way air-side at around 5.40am on Tuesday. See PA story AIR City. Photo credit should read: Jonathan Goldberg/Black Lives Matter UK /PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"Activists from the Black Lives Matter (UK) movement staged a protest on a runway at London City Airport on Tuesday",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/25856e16-d95f-4432-af84-6464c93d249f.img",
+               "type":"article",
+               "source":"PA",
+               "alt":"NOTE ALTERNATE CROP Handout photo issued by Black Lives Matter UK of protesters after they stormed the runway at London City Airport. PRESS ASSOCIATION Photo. Picture date: Tuesday September 6, 2016. Flights were disrupted at the airport, in the Royal Docks area of the capital, after activists apparently in support of the Black Lives Matter movement made their way air-side at around 5.40am on Tuesday. See PA story AIR City. Photo credit should read: Jonathan Goldberg/Black Lives Matter UK /PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"Activists from the Black Lives Matter (UK) movement staged a protest on a runway at London City Airport on Tuesday",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/bdf6ffac-7424-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"d79cde1a-7436-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Older drivers safer than young men"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T14:26:47Z",
+            "lastPublishDateTime":"2016-09-06T14:26:47Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/d79cde1a-7436-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Forcing elderly to stop driving ‘will not make roads safer’",
+            "standFirst":"Forcing elderly off the road will increase ill health and not make roads safer, say researchers",
+            "byline":"Clive Cookson in Swansea"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"UK Politics & Policy",
+                  "id":"OA==-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Ageing Populations",
+                  "id":"MmNlMzA4YmEtZjdlMC00YTljLWJiYzctOWE5ZjQ1NTUzYzI2-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Ageing Populations",
+                     "id":"MmNlMzA4YmEtZjdlMC00YTljLWJiYzctOWE5ZjQ1NTUzYzI2-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Clive Cookson",
+                     "id":"Q0ItMDAwMDcwMQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+
+            ],
+            "people":[
+
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"UK",
+                     "id":"Ng==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Ageing Populations",
+                     "id":"MmNlMzA4YmEtZjdlMC00YTljLWJiYzctOWE5ZjQ1NTUzYzI2-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/7516d291-5be4-4076-aa37-d9f21293b26f.img",
+               "type":"primary",
+               "source":"Alamy",
+               "alt":"CRTT3K senior man driving open top sports car",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/8d6f4b53-ded3-4001-b785-1377f838be9a.img",
+               "type":"secondary",
+               "source":"Alamy",
+               "alt":"CRTT3K senior man driving open top sports car",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/527835ad-0311-4fe1-82a7-267ff06184ab.img",
+               "type":"wide-format",
+               "source":"Alamy",
+               "alt":"CRTT3K senior man driving open top sports car",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/8794cc24-1c8e-4350-8218-80e34a15632d.img",
+               "type":"leader",
+               "source":"Alamy",
+               "alt":"CRTT3K senior man driving open top sports car",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/9804500b-9772-45a3-b3d4-771a16c3843c.img",
+               "type":"article",
+               "source":"Alamy",
+               "alt":"CRTT3K senior man driving open top sports car",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/d79cde1a-7436-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"39f75056-7449-11e6-b60a-de4532d5ea35",
+         "title":{
+            "title":"Fox pays $20m to settle Carlson lawsuit"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T16:48:41Z",
+            "lastPublishDateTime":"2016-09-06T16:48:41Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/39f75056-7449-11e6-b60a-de4532d5ea35.html"
+         },
+         "editorial":{
+            "subheading":"Group apologises to former presenter as it loses another top host",
+            "standFirst":"Murdoch group apologises to former host as news network loses another leading female presenter",
+            "byline":"Matthew Garrahan in New York"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Media",
+                  "id":"NTU=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Twenty-First Century Fox Inc",
+                  "id":"YmVlZmQ1NDItZmUxMC00MGQ4LThkMzktZmEyZWU1YzRiZThi-T04=",
+                  "attributes":[
+                     {
+                        "key":"is_company",
+                        "value":"false"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Media",
+                     "id":"NTU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Twenty-First Century Fox Inc",
+                     "id":"YmVlZmQ1NDItZmUxMC00MGQ4LThkMzktZmEyZWU1YzRiZThi-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"FOX_News_Network_LLC",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Twenty-First Century Fox Inc",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:FOXA"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Matthew Garrahan",
+                     "id":"Q0ItMDAwMTMzNQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"FOX News Network LLC",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTI3NjM3-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Twenty-First Century Fox Inc",
+                     "id":"YmVlZmQ1NDItZmUxMC00MGQ4LThkMzktZmEyZWU1YzRiZThi-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"Roger Ailes",
+                     "id":"MDViODViZTctOTAzZC00M2Y1LThiNTUtNjUwODM1ZWQ2NTg3-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Rupert Murdoch",
+                     "id":"TnN0ZWluX1BOXzIwMDkwNjIzXzU1Njk=-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Media",
+                     "id":"NTU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Companies By Region",
+                     "id":"NjI=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US & Canadian Companies",
+                     "id":"NjU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/eb9015b5-828e-4677-9e81-15d339c1905c.img",
+               "type":"primary",
+               "source":"Getty",
+               "alt":"NEW YORK, NY - JULY 19: (L-R) Fox &amp; Friends hosts Steve Doocy, Gretchen Carlson and Brian Kilmeade during \"FOX &amp; Friends\" All American Concert Series outside of FOX Studios on July 19, 2013 in New York City. (Photo by Slaven Vlasic/Getty Images)",
+               "caption":"The media group apologised to Gretchen Carlson for the fact that she was not treated with the respect she deserved",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/0ad5a55f-2116-42d2-a04b-b1b11048fa02.img",
+               "type":"secondary",
+               "source":"Getty",
+               "alt":"NEW YORK, NY - JULY 19: (L-R) Fox &amp; Friends hosts Steve Doocy, Gretchen Carlson and Brian Kilmeade during \"FOX &amp; Friends\" All American Concert Series outside of FOX Studios on July 19, 2013 in New York City. (Photo by Slaven Vlasic/Getty Images)",
+               "caption":"The media group apologised to Gretchen Carlson for the fact that she was not treated with the respect she deserved",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/cdd8531d-02d3-4279-886c-00178c3910a8.img",
+               "type":"wide-format",
+               "source":"Getty",
+               "alt":"NEW YORK, NY - JULY 19: (L-R) Fox &amp; Friends hosts Steve Doocy, Gretchen Carlson and Brian Kilmeade during \"FOX &amp; Friends\" All American Concert Series outside of FOX Studios on July 19, 2013 in New York City. (Photo by Slaven Vlasic/Getty Images)",
+               "caption":"The media group apologised to Gretchen Carlson for the fact that she was not treated with the respect she deserved",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/c2e354cc-881c-40aa-aeb2-f32f5643f5d3.img",
+               "type":"leader",
+               "source":"Getty",
+               "alt":"NEW YORK, NY - JULY 19: (L-R) Fox &amp; Friends hosts Steve Doocy, Gretchen Carlson and Brian Kilmeade during \"FOX &amp; Friends\" All American Concert Series outside of FOX Studios on July 19, 2013 in New York City. (Photo by Slaven Vlasic/Getty Images)",
+               "caption":"The media group apologised to Gretchen Carlson for the fact that she was not treated with the respect she deserved",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/155a86db-9005-4161-b708-ac624d5aee12.img",
+               "type":"article",
+               "source":"Getty",
+               "alt":"NEW YORK, NY - JULY 19: (L-R) Fox &amp; Friends hosts Steve Doocy, Gretchen Carlson and Brian Kilmeade during \"FOX &amp; Friends\" All American Concert Series outside of FOX Studios on July 19, 2013 in New York City. (Photo by Slaven Vlasic/Getty Images)",
+               "caption":"The media group apologised to Gretchen Carlson for the fact that she was not treated with the respect she deserved",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/39f75056-7449-11e6-b60a-de4532d5ea35",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"7971771e-72c0-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Spotify may limit free music in new deal"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T16:16:06Z",
+            "lastPublishDateTime":"2016-09-06T16:16:06Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/7971771e-72c0-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Paying subscribers would get first access to new albums",
+            "standFirst":"Paying subscribers would get first access to new albums in concession to major labels",
+            "byline":"Anna Nicolaou in New York"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Media",
+                  "id":"NTU=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Spotify Ltd",
+                  "id":"MDVjNTBiZTEtYmQxYy00MjUxLWEyY2UtYWMxNTY3NWM5MDIz-T04=",
+                  "attributes":[
+                     {
+                        "key":"is_company",
+                        "value":"true"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Media",
+                     "id":"NTU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Spotify Ltd",
+                     "id":"MDVjNTBiZTEtYmQxYy00MjUxLWEyY2UtYWMxNTY3NWM5MDIz-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Sony Music Entertainment Inc",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Universal Music Publishing Group",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Spotify Ltd",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Warner Music Group Corp",
+                     "attributes":[
+
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"01011000 - music",
+                     "id":"MDEwMTEwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"04010011 - music industry",
+                     "id":"MDQwMTAwMTE=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Spotify Ltd",
+                     "id":"MDVjNTBiZTEtYmQxYy00MjUxLWEyY2UtYWMxNTY3NWM5MDIz-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Apple Inc",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0FBUEw=-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"us:AAPL"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"Daniel Ek",
+                     "id":"MTljOGI0ZGQtODZlZi00NjM1LWE2YjQtMjk5OWQ4ZDU4N2Rl-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Taylor Swift",
+                     "id":"TnN0ZWluX1BOX1VTX0Nvbm5fSk1fMjAwOTA5MTdfMzk1MA==-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Technology",
+                     "id":"NTM=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Media",
+                     "id":"NTU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US & Canadian Companies",
+                     "id":"NjU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"IPOs",
+                     "id":"ZjNhYTM0YjktYzI4Ni00M2ZjLTkzOGUtMDg3MWYwYjBmYzUx-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/7a8a71a8-d2e9-4d1d-a0b6-612be6dbceec.img",
+               "type":"primary",
+               "source":"Bloomberg",
+               "alt":"A pair of audio headphones hang from a lamp shade inside the offices music streaming company Spotify Ltd. in Berlin, Germany, on Friday, June 17, 2016. According to reports, Spotify has hired Paul Vogel, the former equity research analyst at Barclays Plc, indicating that the music streaming company may be planning making an initial public offering. Photographer: Krisztian Bocsi/Bloomberg",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/5b15d678-b249-4c42-9546-0abdc3cc5aee.img",
+               "type":"secondary",
+               "source":"Bloomberg",
+               "alt":"A pair of audio headphones hang from a lamp shade inside the offices music streaming company Spotify Ltd. in Berlin, Germany, on Friday, June 17, 2016. According to reports, Spotify has hired Paul Vogel, the former equity research analyst at Barclays Plc, indicating that the music streaming company may be planning making an initial public offering. Photographer: Krisztian Bocsi/Bloomberg",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/69f896f2-aaca-4814-95c4-35cbaed45ebb.img",
+               "type":"wide-format",
+               "source":"Bloomberg",
+               "alt":"A pair of audio headphones hang from a lamp shade inside the offices music streaming company Spotify Ltd. in Berlin, Germany, on Friday, June 17, 2016. According to reports, Spotify has hired Paul Vogel, the former equity research analyst at Barclays Plc, indicating that the music streaming company may be planning making an initial public offering. Photographer: Krisztian Bocsi/Bloomberg",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/12d81f5a-8f95-4b00-9d9e-b445d7bd51e4.img",
+               "type":"leader",
+               "source":"Bloomberg",
+               "alt":"A pair of audio headphones hang from a lamp shade inside the offices music streaming company Spotify Ltd. in Berlin, Germany, on Friday, June 17, 2016. According to reports, Spotify has hired Paul Vogel, the former equity research analyst at Barclays Plc, indicating that the music streaming company may be planning making an initial public offering. Photographer: Krisztian Bocsi/Bloomberg",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/861f8735-64b6-4163-accf-47c2559cb77f.img",
+               "type":"article",
+               "source":"Bloomberg",
+               "alt":"A pair of audio headphones hang from a lamp shade inside the offices music streaming company Spotify Ltd. in Berlin, Germany, on Friday, June 17, 2016. According to reports, Spotify has hired Paul Vogel, the former equity research analyst at Barclays Plc, indicating that the music streaming company may be planning making an initial public offering. Photographer: Krisztian Bocsi/Bloomberg",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/7971771e-72c0-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"d18c5192-7493-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Fed’s Williams pushes case for rates rise"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-07T01:31:44Z",
+            "lastPublishDateTime":"2016-09-07T01:31:44Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/d18c5192-7493-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"San Francisco president paints bullish picture of broader economy",
+            "standFirst":"San Francisco president paints bullish picture of broader economy and highlights risks of inaction",
+            "byline":"Sam Fleming in Washington"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"US Economy",
+                  "id":"MTEw-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Federal Reserve Bank of San Francisco",
+                  "id":"TnN0ZWluX09OX0FGVE1fT05fMTIxNjMy-T04=",
+                  "attributes":[
+                     {
+                        "key":"is_company",
+                        "value":"false"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"US Economy",
+                     "id":"MTEw-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Federal Reserve Bank of San Francisco",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTIxNjMy-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Sam Fleming",
+                     "id":"Q0ItMDQxMTMzNw==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04008016 - inflation and deflation",
+                     "id":"MDQwMDgwMTY=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"04019001 - money and monetary policy",
+                     "id":"MDQwMTkwMDE=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11013000 - state budget and tax",
+                     "id":"MTEwMTMwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Federal Open Markets Committee US",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTIxNjA0-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Federal Reserve",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTIxNjIw-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Federal Reserve Bank of San Francisco",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTIxNjMy-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"John Williams",
+                     "id":"TnN0ZWluX1BOX1BvbGl0aWNpYW5fMjczNA==-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"United States of America",
+                     "id":"TnN0ZWluX0dMX1VT-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"World",
+                     "id":"MQ==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Global Economy",
+                     "id":"MTA3-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US Economy",
+                     "id":"MTEw-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US",
+                     "id":"Mg==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US Politics & Policy",
+                     "id":"Mw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"US Inflation",
+                     "id":"ZDcyMmMwOWQtNzZhMy00MjgxLTgzMDktZTFiNjhkOTFiZWEw-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US Interest Rates",
+                     "id":"ZDdmZTU0YWMtNjQ2Ny00ZGViLThlZDYtMWUzZjkzNGNjZWEw-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US Employment",
+                     "id":"ZjVlZDkwODMtZmNiNy00NDRjLWFmNGMtZDVhYWNlZmNiMjU2-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/a8b9d0d6-0db2-4218-8a59-f5429e25b7ac.img",
+               "type":"primary",
+               "alt":"Federal Reserve President John Williams",
+               "caption":"John Williams, president of the Federal Reserve Bank of San Francisco",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/f07be05e-6a80-466c-bcaf-e37f782469c0.img",
+               "type":"secondary",
+               "alt":"Federal Reserve President John Williams",
+               "caption":"John Williams, president of the Federal Reserve Bank of San Francisco",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/f17361ff-e09d-439a-9c98-1c83c8aeb1ee.img",
+               "type":"wide-format",
+               "alt":"Federal Reserve President John Williams",
+               "caption":"John Williams, president of the Federal Reserve Bank of San Francisco",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/5b2f2683-6293-4b77-ae61-328d2836800b.img",
+               "type":"leader",
+               "alt":"Federal Reserve President John Williams",
+               "caption":"John Williams, president of the Federal Reserve Bank of San Francisco",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/ed755749-98e8-4637-8b6b-4c92af376dad.img",
+               "type":"article",
+               "alt":"Federal Reserve President John Williams",
+               "caption":"John Williams, president of the Federal Reserve Bank of San Francisco",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/d18c5192-7493-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"bccd2986-743c-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Henkel and Sanofi sell negative-yield debt"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T17:03:28Z",
+            "lastPublishDateTime":"2016-09-06T17:03:28Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/bccd2986-743c-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Deals show how QE has upended market assumptions",
+            "standFirst":"Deals show how QE has upended market assumptions",
+            "byline":"Gavin Jackson"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Capital Markets",
+                  "id":"MTA0-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Negative Interest Rates",
+                  "id":"MzdiZDBjNGYtMjZkOS00YWRiLWFiYmUtNzY1ZmY5Y2Y2MzRi-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Capital Markets",
+                     "id":"MTA0-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Negative Interest Rates",
+                     "id":"MzdiZDBjNGYtMjZkOS00YWRiLWFiYmUtNzY1ZmY5Y2Y2MzRi-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Henkel Co KGaA AG",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"de:HEN3"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Sanofi SA",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"fr:SAN"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Gavin Jackson",
+                     "id":"Q0ItMDQ0MTYwMw==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04008027 - bonds",
+                     "id":"MDQwMDgwMjc=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Sanofi",
+                     "id":"N2EyZGNlMDAtOTVjMS00OWJlLWFhZWUtNmU1YzQwYjU3ODNl-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"fr:SAN"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Henkel AG & Co KGaA",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0hFTktFTA==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"de:HEN"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"TnN0ZWluX0dMX0V1cm9wZQ==-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Capital Markets",
+                     "id":"MTA0-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Personal & Household Goods",
+                     "id":"NDc=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Pharmaceuticals",
+                     "id":"NTI=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European Companies",
+                     "id":"NjY=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Markets",
+                     "id":"NzE=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Negative Interest Rates",
+                     "id":"MzdiZDBjNGYtMjZkOS00YWRiLWFiYmUtNzY1ZmY5Y2Y2MzRi-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Corporate bonds",
+                     "id":"ZDI4OTIwZjktODRjYi00ZGQxLTg1NGQtMmI0MTc2ZjljN2Ji-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/69c6eaca-d820-4b39-b646-5b4b13c95c15.img",
+               "type":"primary",
+               "source":"EPA",
+               "alt":"French pharmaceutical Sanofi to develop Zika vaccine...epa05139692 (FILE) A file photo dated 19 October 2009 showing a worker checking the filling up of vials of Humenza adjutant, a H1N1 flu vaccine produced by the Sanofi-Pasteur laboratories in Val-de-Reuil, France. Sanofi, France's largest drugmaker, said 02 February 2016 that it has launched a research project to develop a vaccine to combat the Zika virus. There is currently no vaccine against the Zika virus or specific treatment for the infection it causes. Zika is a mosquito-borne virus similar to dengue, against which Sanofi Pasteur - the vaccine division of French pharmaceutical company Sanofi - recently marketed the first vaccine. EPA/HORACIO VILLALOBOS",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/a9f5641a-2518-4e87-b22d-5f551b595d30.img",
+               "type":"secondary",
+               "source":"EPA",
+               "alt":"French pharmaceutical Sanofi to develop Zika vaccine...epa05139692 (FILE) A file photo dated 19 October 2009 showing a worker checking the filling up of vials of Humenza adjutant, a H1N1 flu vaccine produced by the Sanofi-Pasteur laboratories in Val-de-Reuil, France. Sanofi, France's largest drugmaker, said 02 February 2016 that it has launched a research project to develop a vaccine to combat the Zika virus. There is currently no vaccine against the Zika virus or specific treatment for the infection it causes. Zika is a mosquito-borne virus similar to dengue, against which Sanofi Pasteur - the vaccine division of French pharmaceutical company Sanofi - recently marketed the first vaccine. EPA/HORACIO VILLALOBOS",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/9706ecdf-aacb-4de6-8410-9415f6b1e29f.img",
+               "type":"wide-format",
+               "source":"EPA",
+               "alt":"French pharmaceutical Sanofi to develop Zika vaccine...epa05139692 (FILE) A file photo dated 19 October 2009 showing a worker checking the filling up of vials of Humenza adjutant, a H1N1 flu vaccine produced by the Sanofi-Pasteur laboratories in Val-de-Reuil, France. Sanofi, France's largest drugmaker, said 02 February 2016 that it has launched a research project to develop a vaccine to combat the Zika virus. There is currently no vaccine against the Zika virus or specific treatment for the infection it causes. Zika is a mosquito-borne virus similar to dengue, against which Sanofi Pasteur - the vaccine division of French pharmaceutical company Sanofi - recently marketed the first vaccine. EPA/HORACIO VILLALOBOS",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/fa8952d1-1ad0-4e15-84d9-b76495efdf21.img",
+               "type":"leader",
+               "source":"EPA",
+               "alt":"French pharmaceutical Sanofi to develop Zika vaccine...epa05139692 (FILE) A file photo dated 19 October 2009 showing a worker checking the filling up of vials of Humenza adjutant, a H1N1 flu vaccine produced by the Sanofi-Pasteur laboratories in Val-de-Reuil, France. Sanofi, France's largest drugmaker, said 02 February 2016 that it has launched a research project to develop a vaccine to combat the Zika virus. There is currently no vaccine against the Zika virus or specific treatment for the infection it causes. Zika is a mosquito-borne virus similar to dengue, against which Sanofi Pasteur - the vaccine division of French pharmaceutical company Sanofi - recently marketed the first vaccine. EPA/HORACIO VILLALOBOS",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/964b7561-0690-481f-86ae-8484a15cba95.img",
+               "type":"article",
+               "source":"EPA",
+               "alt":"French pharmaceutical Sanofi to develop Zika vaccine...epa05139692 (FILE) A file photo dated 19 October 2009 showing a worker checking the filling up of vials of Humenza adjutant, a H1N1 flu vaccine produced by the Sanofi-Pasteur laboratories in Val-de-Reuil, France. Sanofi, France's largest drugmaker, said 02 February 2016 that it has launched a research project to develop a vaccine to combat the Zika virus. There is currently no vaccine against the Zika virus or specific treatment for the infection it causes. Zika is a mosquito-borne virus similar to dengue, against which Sanofi Pasteur - the vaccine division of French pharmaceutical company Sanofi - recently marketed the first vaccine. EPA/HORACIO VILLALOBOS",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/bccd2986-743c-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"7ff044e6-7449-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Barroso under fire from EU watchdog"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T16:54:07Z",
+            "lastPublishDateTime":"2016-09-06T16:54:07Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/7ff044e6-7449-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Ombudsman voices concern over Goldman job",
+            "standFirst":"Ombudsman voices concern over Goldman job",
+            "byline":"By Jim Brunsden in Brussels"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Brussels",
+                  "id":"MTA=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"José Manuel Barroso",
+                  "id":"YmQwYTJiMDUtMzE2OS00NDE2LTk5YzMtZmE0MTBjMzM4OTg1-UE4=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"people"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Brussels",
+                     "id":"MTA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"José Manuel Barroso",
+                     "id":"YmQwYTJiMDUtMzE2OS00NDE2LTk5YzMtZmE0MTBjMzM4OTg1-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Goldman Sachs Group Inc",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:GS"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European_Union",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European_Commission",
+                     "attributes":[
+
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Jim Brunsden",
+                     "id":"Y2E0OWU1YmEtMmFhNi00MDQwLTkyYzItOGEyZDA4MDc2OTMx-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"European Commission",
+                     "id":"TnN0ZWluX09OX0FGVE1fT05fMTE2NTM1-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European Union",
+                     "id":"VC0xNDcyNTI3-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+               {
+                  "term":{
+                     "name":"José Manuel Barroso",
+                     "id":"YmQwYTJiMDUtMzE2OS00NDE2LTk5YzMtZmE0MTBjMzM4OTg1-UE4=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"people"
+                  }
+               }
+            ],
+            "regions":[
+
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Brussels",
+                     "id":"MTA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"OQ==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"European banks",
+                     "id":"MTE=-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/fc86df37-f504-477d-b56c-d12de250dc30.img",
+               "type":"primary",
+               "source":"Getty",
+               "alt":"DRESDEN, GERMANY - JUNE 09: Jose Manuel Barroso, former President of the European Commission, arrives at the Hotel Taschenbergpalais Kempinski Dresden for the 2016 Bilderberg Group conference on June 9, 2016 in Dresden, Germany. The Taschenbergpalais is hosting the 2016 Bilderberg Group gathering that will bring together 130 leading international players from politics, industry, finance, academia and media to discuss globally-relevant issues from today until June 12. A wide spectrum of groups have announced protests to be held nearby. Critics charge the secretive nature of the Bilderberg Group annual meetings is undemocratic. (Photo by Sean Gallup/Getty Images)",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/f5257a7b-87b6-4a0f-9528-d763daaf4a86.img",
+               "type":"secondary",
+               "source":"Getty",
+               "alt":"DRESDEN, GERMANY - JUNE 09: Jose Manuel Barroso, former President of the European Commission, arrives at the Hotel Taschenbergpalais Kempinski Dresden for the 2016 Bilderberg Group conference on June 9, 2016 in Dresden, Germany. The Taschenbergpalais is hosting the 2016 Bilderberg Group gathering that will bring together 130 leading international players from politics, industry, finance, academia and media to discuss globally-relevant issues from today until June 12. A wide spectrum of groups have announced protests to be held nearby. Critics charge the secretive nature of the Bilderberg Group annual meetings is undemocratic. (Photo by Sean Gallup/Getty Images)",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/563f4591-8b05-4c8a-b263-4c82613006ed.img",
+               "type":"wide-format",
+               "source":"Getty",
+               "alt":"DRESDEN, GERMANY - JUNE 09: Jose Manuel Barroso, former President of the European Commission, arrives at the Hotel Taschenbergpalais Kempinski Dresden for the 2016 Bilderberg Group conference on June 9, 2016 in Dresden, Germany. The Taschenbergpalais is hosting the 2016 Bilderberg Group gathering that will bring together 130 leading international players from politics, industry, finance, academia and media to discuss globally-relevant issues from today until June 12. A wide spectrum of groups have announced protests to be held nearby. Critics charge the secretive nature of the Bilderberg Group annual meetings is undemocratic. (Photo by Sean Gallup/Getty Images)",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/4abacb6a-2def-4e0e-b0f7-4dc710018bfc.img",
+               "type":"leader",
+               "source":"Getty",
+               "alt":"DRESDEN, GERMANY - JUNE 09: Jose Manuel Barroso, former President of the European Commission, arrives at the Hotel Taschenbergpalais Kempinski Dresden for the 2016 Bilderberg Group conference on June 9, 2016 in Dresden, Germany. The Taschenbergpalais is hosting the 2016 Bilderberg Group gathering that will bring together 130 leading international players from politics, industry, finance, academia and media to discuss globally-relevant issues from today until June 12. A wide spectrum of groups have announced protests to be held nearby. Critics charge the secretive nature of the Bilderberg Group annual meetings is undemocratic. (Photo by Sean Gallup/Getty Images)",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/99b56722-c267-4d33-9492-138b2774e649.img",
+               "type":"article",
+               "source":"Getty",
+               "alt":"DRESDEN, GERMANY - JUNE 09: Jose Manuel Barroso, former President of the European Commission, arrives at the Hotel Taschenbergpalais Kempinski Dresden for the 2016 Bilderberg Group conference on June 9, 2016 in Dresden, Germany. The Taschenbergpalais is hosting the 2016 Bilderberg Group gathering that will bring together 130 leading international players from politics, industry, finance, academia and media to discuss globally-relevant issues from today until June 12. A wide spectrum of groups have announced protests to be held nearby. Critics charge the secretive nature of the Bilderberg Group annual meetings is undemocratic. (Photo by Sean Gallup/Getty Images)",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/7ff044e6-7449-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"b52952ac-7452-11e6-b60a-de4532d5ea35",
+         "title":{
+            "title":"Ford slashes investment in UK car plant"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T18:41:23Z",
+            "lastPublishDateTime":"2016-09-06T18:41:23Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/b52952ac-7452-11e6-b60a-de4532d5ea35.html"
+         },
+         "editorial":{
+            "subheading":"US group will put £100m into Bridgend factory instead of £181m",
+            "standFirst":"US group will put £100m into Bridgend engine factory instead of £181m",
+            "byline":"Peter Campbell, Motor Industry Correspondent"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Automobiles",
+                  "id":"NDA=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Ford Motor Co",
+                  "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0ZPUkQ=-T04=",
+                  "attributes":[
+                     {
+                        "key":"wsod_key",
+                        "value":"us:F"
+                     },
+                     {
+                        "key":"is_company",
+                        "value":"true"
+                     }
+                  ],
+                  "taxonomy":"organisations"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Automobiles",
+                     "id":"NDA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Ford Motor Co",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0ZPUkQ=-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"us:F"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Ford Motor Co",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"us:F"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Peter Campbell",
+                     "id":"Q0ItUEM2MTYxMg==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+               {
+                  "term":{
+                     "name":"2753 Commercial Vehicles & Trucks",
+                     "id":"NDc=-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"3353 Automobiles",
+                     "id":"NjQ=-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"3355 Auto Parts",
+                     "id":"NjU=-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               }
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04016000 - company information",
+                     "id":"MDQwMTYwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Ford Motor Co",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0ZPUkQ=-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"us:F"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"TnN0ZWluX0dMX0V1cm9wZQ==-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"United Kingdom",
+                     "id":"TnN0ZWluX0dMX0dC-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Bridgend",
+                     "id":"TnN0ZWluX0dMX0dCX1dMU19CcmlkZ2VuZF8wMFBCMDAy-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"United States of America",
+                     "id":"TnN0ZWluX0dMX1VT-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Industrials",
+                     "id":"MzQ=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Industrial Goods",
+                     "id":"Mzg=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Automobiles",
+                     "id":"NDA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European Companies",
+                     "id":"NjY=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Business & Economy",
+                     "id":"Nw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/493d7579-1827-405b-8d30-cbe6e69f12ec.img",
+               "type":"primary",
+               "alt":"CleanassemblyatFordBridgend.JPG\n\nEngine production at Ford Bridgend",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/2e1f8e81-8f53-42ce-b709-2e381ed58cb9.img",
+               "type":"secondary",
+               "alt":"CleanassemblyatFordBridgend.JPG\n\nEngine production at Ford Bridgend",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/05f297b7-5f4a-4a29-9e6d-ffffaef4bcd1.img",
+               "type":"wide-format",
+               "alt":"CleanassemblyatFordBridgend.JPG\n\nEngine production at Ford Bridgend",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/8cd58e30-6f85-40ad-a771-eddffe115939.img",
+               "type":"leader",
+               "alt":"CleanassemblyatFordBridgend.JPG\n\nEngine production at Ford Bridgend",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/0b7e2c9f-80ef-4c8b-9c03-cce08eba4929.img",
+               "type":"article",
+               "alt":"CleanassemblyatFordBridgend.JPG\n\nEngine production at Ford Bridgend",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/b52952ac-7452-11e6-b60a-de4532d5ea35",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"e52af878-7418-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Japan Inc rethinks its bet on Britain"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T17:48:34Z",
+            "lastPublishDateTime":"2016-09-06T17:48:34Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/e52af878-7418-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Brexit vote puts question mark over future investments",
+            "standFirst":"Brexit vote has hung a question mark over future investments as well as existing factories",
+            "byline":"Robin Harding in Tokyo and Peter Campbell and Laura Noonan in London"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"UK Business & Economy",
+                  "id":"Nw==-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Brexit",
+                  "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"UK Business & Economy",
+                     "id":"Nw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Brexit",
+                     "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Mitsubishi UFJ Financial Group Inc",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"jp:8306"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Nomura International PLC",
+                     "attributes":[
+
+                     ]
+                  }
+               },
+               {
+                  "term":{
+                     "name":"European_Union",
+                     "attributes":[
+
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Robin Harding",
+                     "id":"Q0ItMDAwMDc2OQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Laura Noonan",
+                     "id":"Q0ItTE41Njc4OQ==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Peter Campbell",
+                     "id":"Q0ItUEM2MTYxMg==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+
+            ],
+            "iptc":[
+
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"European Union",
+                     "id":"VC0xNDcyNTI3-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"Tokyo",
+                     "id":"TnN0ZWluX0dMX0FGVE1fR0xfMTY5NA==-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"TnN0ZWluX0dMX0V1cm9wZQ==-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"United Kingdom",
+                     "id":"TnN0ZWluX0dMX0dC-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Japan",
+                     "id":"TnN0ZWluX0dMX0pQ-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"World",
+                     "id":"MQ==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Brussels",
+                     "id":"MTA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Industrials",
+                     "id":"MzQ=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Automobiles",
+                     "id":"NDA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK",
+                     "id":"Ng==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Business & Economy",
+                     "id":"Nw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Europe",
+                     "id":"OQ==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"EU trade",
+                     "id":"MjZlNDJjYWQtOTY5NS00YTk4LWIxMzItMWNjN2Q4ZmM5MWUz-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Brexit",
+                     "id":"NDdiMzAyNzctMTRlMy00Zjk1LWEyZjYtYmYwZWIwYWU2NzAy-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"EU energy",
+                     "id":"NGUwMzNjNzMtYmE1YS00NGI0LWI5ZmMtM2Y2NDBkMjU2M2Fm-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Global Trade",
+                     "id":"YWJhYzg1ZTYtOTRiOC00MTRmLTk2OGMtYjIxYmMyODY2NTdi-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/5a82deb8-a8b8-49e1-a0ff-2caa1ff5c2a9.img",
+               "type":"primary",
+               "alt":"",
+               "caption":"Sectors in the spotlight: technology, cars and banks",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/169ba690-8afb-48cd-917e-003736c3648a.img",
+               "type":"secondary",
+               "alt":"",
+               "caption":"Sectors in the spotlight: technology, cars and banks",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/df1fa3e4-abec-4d1c-ab44-f4d5f7b4e094.img",
+               "type":"wide-format",
+               "alt":"",
+               "caption":"Sectors in the spotlight: technology, cars and banks",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/7228cab0-d9fa-4f09-a735-3f6d2d5f7e92.img",
+               "type":"leader",
+               "alt":"",
+               "caption":"Sectors in the spotlight: technology, cars and banks",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/62022748-6880-4f1b-9071-99a26e1b3177.img",
+               "type":"article",
+               "alt":"",
+               "caption":"Sectors in the spotlight: technology, cars and banks",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/e52af878-7418-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"d90cf01a-732c-11e6-bf48-b372cdb1043a",
+         "title":{
+            "title":"Can lights stay on without Hinkley Point?"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T04:30:43Z",
+            "lastPublishDateTime":"2016-09-06T04:30:43Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/d90cf01a-732c-11e6-bf48-b372cdb1043a.html"
+         },
+         "editorial":{
+            "subheading":"Cancelling project would require tapping other sources of power",
+            "standFirst":"Cancelling project would require tapping other sources for 3.2GW of power",
+            "byline":"Andrew Ward, Energy Editor"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"UK Business & Economy",
+                  "id":"Nw==-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"UK energy",
+                  "id":"NzlhYjMzM2EtMGU5Zi00NjRkLWIwYTAtNTdkOTBhZjZjN2Q0-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"UK Business & Economy",
+                     "id":"Nw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK energy",
+                     "id":"NzlhYjMzM2EtMGU5Zi00NjRkLWIwYTAtNTdkOTBhZjZjN2Q0-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"EDF",
+                     "attributes":[
+                        {
+                           "key":"FTSymbol",
+                           "value":"fr:EDF"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Andrew Ward",
+                     "id":"Q0ItMDAwMDkwNg==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+               {
+                  "term":{
+                     "name":"7500 Utilities",
+                     "id":"MTMx-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"7535 Conventional Electricity",
+                     "id":"MTMz-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               }
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04005006 - electricity production and distribution",
+                     "id":"MDQwMDUwMDY=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"11001009 - nuclear weapons",
+                     "id":"MTEwMDEwMDk=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"EDF",
+                     "id":"TnN0ZWluX09OX0ZvcnR1bmVDb21wYW55X0VERg==-T04=",
+                     "attributes":[
+                        {
+                           "key":"wsod_key",
+                           "value":"fr:EDF"
+                        },
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"United Kingdom",
+                     "id":"TnN0ZWluX0dMX0dC-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Energy",
+                     "id":"MzA=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Utilities",
+                     "id":"MzM=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK",
+                     "id":"Ng==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Business & Economy",
+                     "id":"Nw==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK Politics & Policy",
+                     "id":"OA==-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Nuclear Energy",
+                     "id":"NzNkOTNhYTktY2ExZi00YTBmLWI2NzgtZGQzYTJiY2E3ZjAx-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Renewable Energy",
+                     "id":"NzVmY2UyOTktOWQzMC00YzdkLTllNGYtMjUyOTJmMzgzMDFk-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"UK energy",
+                     "id":"NzlhYjMzM2EtMGU5Zi00NjRkLWIwYTAtNTdkOTBhZjZjN2Q0-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/dba1188e-9736-4e85-89bd-be558761f0ca.img",
+               "type":"primary",
+               "source":"PA",
+               "alt":"Undated file handout artist's impression issued by EDF of plans for the new Hinkley Point C nuclear power station, as London risks losing its status as a global hub for Chinese finance if the UK Government rejects a key nuclear deal, experts have warned. PRESS ASSOCIATION Photo. Issue date: Sunday August 28, 2016. Prime Minister Theresa May earlier this month delayed approval for the China-backed Hinkley Point Site C nuclear project, prompting Beijing's ambassador to warn that Sino-British ties were at a \"crucial juncture\". See PA story CITY Hinkley. Photo credit should read: EDF Energy/PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"The proposed Hinkley Point C nuclear power station",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/60c04ebd-e02f-483f-9567-d5f2193a443f.img",
+               "type":"secondary",
+               "source":"PA",
+               "alt":"Undated file handout artist's impression issued by EDF of plans for the new Hinkley Point C nuclear power station, as London risks losing its status as a global hub for Chinese finance if the UK Government rejects a key nuclear deal, experts have warned. PRESS ASSOCIATION Photo. Issue date: Sunday August 28, 2016. Prime Minister Theresa May earlier this month delayed approval for the China-backed Hinkley Point Site C nuclear project, prompting Beijing's ambassador to warn that Sino-British ties were at a \"crucial juncture\". See PA story CITY Hinkley. Photo credit should read: EDF Energy/PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"The proposed Hinkley Point C nuclear power station",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/686ef51a-ee5a-4442-aaea-4098cd6b9798.img",
+               "type":"wide-format",
+               "source":"PA",
+               "alt":"Undated file handout artist's impression issued by EDF of plans for the new Hinkley Point C nuclear power station, as London risks losing its status as a global hub for Chinese finance if the UK Government rejects a key nuclear deal, experts have warned. PRESS ASSOCIATION Photo. Issue date: Sunday August 28, 2016. Prime Minister Theresa May earlier this month delayed approval for the China-backed Hinkley Point Site C nuclear project, prompting Beijing's ambassador to warn that Sino-British ties were at a \"crucial juncture\". See PA story CITY Hinkley. Photo credit should read: EDF Energy/PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"The proposed Hinkley Point C nuclear power station",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/64b7708b-6833-4d6a-a057-1b9a56926da4.img",
+               "type":"leader",
+               "source":"PA",
+               "alt":"Undated file handout artist's impression issued by EDF of plans for the new Hinkley Point C nuclear power station, as London risks losing its status as a global hub for Chinese finance if the UK Government rejects a key nuclear deal, experts have warned. PRESS ASSOCIATION Photo. Issue date: Sunday August 28, 2016. Prime Minister Theresa May earlier this month delayed approval for the China-backed Hinkley Point Site C nuclear project, prompting Beijing's ambassador to warn that Sino-British ties were at a \"crucial juncture\". See PA story CITY Hinkley. Photo credit should read: EDF Energy/PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"The proposed Hinkley Point C nuclear power station",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/3ea3dd1b-89a6-4dcf-8a45-c5f1f69c6ce8.img",
+               "type":"article",
+               "source":"PA",
+               "alt":"Undated file handout artist's impression issued by EDF of plans for the new Hinkley Point C nuclear power station, as London risks losing its status as a global hub for Chinese finance if the UK Government rejects a key nuclear deal, experts have warned. PRESS ASSOCIATION Photo. Issue date: Sunday August 28, 2016. Prime Minister Theresa May earlier this month delayed approval for the China-backed Hinkley Point Site C nuclear project, prompting Beijing's ambassador to warn that Sino-British ties were at a \"crucial juncture\". See PA story CITY Hinkley. Photo credit should read: EDF Energy/PA Wire NOTE TO EDITORS: This handout photo may only be used in for editorial reporting purposes for the contemporaneous illustration of events, things or the people in the image or facts mentioned in the caption. Reuse of the picture may require further permission from the copyright holder.",
+               "caption":"The proposed Hinkley Point C nuclear power station",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/d90cf01a-732c-11e6-bf48-b372cdb1043a",
+               "rel":"content-item"
+            }
+         ]
+      },
+      {
+         "id":"61de9980-7093-11e6-9ac1-1055824ca907",
+         "title":{
+            "title":"Start-ups spur new breed of analyst"
+         },
+         "lifecycle":{
+            "initialPublishDateTime":"2016-09-06T07:28:00Z",
+            "lastPublishDateTime":"2016-09-06T07:28:00Z"
+         },
+         "location":{
+            "uri":"http://www.ft.com/cms/s/0/61de9980-7093-11e6-9ac1-1055824ca907.html"
+         },
+         "editorial":{
+            "subheading":"Demand for information as groups such as Uber and Airbnb stay private for longer",
+            "standFirst":"Demand for research as groups such as Uber and Airbnb stay private for longer",
+            "byline":"Leslie Hook in San Francisco"
+         },
+         "metadata":{
+            "primarySection":{
+               "term":{
+                  "name":"Technology",
+                  "id":"NTM=-U2VjdGlvbnM=",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"sections"
+               }
+            },
+            "primaryTheme":{
+               "term":{
+                  "name":"Tech start-ups",
+                  "id":"Yzc1ODdiNmEtZmZiMi00MTM4LTg1N2UtMWRiYzE4ZTdiYThm-VG9waWNz",
+                  "attributes":[
+
+                  ],
+                  "taxonomy":"topics"
+               }
+            },
+            "tags":[
+               {
+                  "term":{
+                     "name":"Technology",
+                     "id":"NTM=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Tech start-ups",
+                     "id":"Yzc1ODdiNmEtZmZiMi00MTM4LTg1N2UtMWRiYzE4ZTdiYThm-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "authors":[
+               {
+                  "term":{
+                     "name":"Leslie Hook",
+                     "id":"Q0ItMDAwMDc3Mw==-QXV0aG9ycw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"authors"
+                  }
+               }
+            ],
+            "brand":[
+
+            ],
+            "genre":[
+               {
+                  "term":{
+                     "name":"News",
+                     "id":"Nw==-R2VucmVz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"genre"
+                  }
+               }
+            ],
+            "icb":[
+               {
+                  "term":{
+                     "name":"8770 Financial Services",
+                     "id":"MTY0-SUNC",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"icb"
+                  }
+               }
+            ],
+            "iptc":[
+               {
+                  "term":{
+                     "name":"04006000 - financial and business service",
+                     "id":"MDQwMDYwMDA=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"04008025 - investments",
+                     "id":"MDQwMDgwMjU=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"04008028 - mutual funds",
+                     "id":"MDQwMDgwMjg=-SVBUQw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"iptc"
+                  }
+               }
+            ],
+            "mediaType":[
+               {
+                  "term":{
+                     "name":"Text",
+                     "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"mediaType"
+                  }
+               }
+            ],
+            "organisations":[
+               {
+                  "term":{
+                     "name":"Airbnb Inc",
+                     "id":"MDIyZGM4YjUtOWFjZS00Yjg5LThiODYtYWZmMzJiOWQ4M2M0-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"true"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Uber",
+                     "id":"MTUyN2VkMWUtODUwZC00NmZkLTlkZGMtNTUyY2E3MDMyZjll-T04=",
+                     "attributes":[
+                        {
+                           "key":"is_company",
+                           "value":"false"
+                        }
+                     ],
+                     "taxonomy":"organisations"
+                  }
+               }
+            ],
+            "people":[
+
+            ],
+            "regions":[
+               {
+                  "term":{
+                     "name":"Silicon Valley",
+                     "id":"TnN0ZWluX0dMX1N0YW5kYWxvbmVfMjQ1NTYy-R0w=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"regions"
+                  }
+               }
+            ],
+            "sections":[
+               {
+                  "term":{
+                     "name":"Entrepreneurship",
+                     "id":"MTM1-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Companies",
+                     "id":"Mjk=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Technology",
+                     "id":"NTM=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"Companies By Region",
+                     "id":"NjI=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               },
+               {
+                  "term":{
+                     "name":"US & Canadian Companies",
+                     "id":"NjU=-U2VjdGlvbnM=",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"sections"
+                  }
+               }
+            ],
+            "specialReports":[
+
+            ],
+            "subjects":[
+
+            ],
+            "topics":[
+               {
+                  "term":{
+                     "name":"Tech start-ups",
+                     "id":"Yzc1ODdiNmEtZmZiMi00MTM4LTg1N2UtMWRiYzE4ZTdiYThm-VG9waWNz",
+                     "attributes":[
+
+                     ],
+                     "taxonomy":"topics"
+                  }
+               }
+            ]
+         },
+         "images":[
+            {
+               "url":"http://im.ft-static.com/content/images/54f22880-f4b7-4960-beed-f6e5e42b6cf8.img",
+               "type":"primary",
+               "alt":"Aerial view of San Francisco and Oakland Bay Bridge",
+               "caption":"",
+               "height":153,
+               "width":272,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/c1796a51-0991-4a53-b7db-a077dfde8a73.img",
+               "type":"secondary",
+               "alt":"Aerial view of San Francisco and Oakland Bay Bridge",
+               "caption":"",
+               "height":94,
+               "width":167,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/cc8aeb1f-1cce-4908-9b8a-c7e6f3712980.img",
+               "type":"wide-format",
+               "alt":"Aerial view of San Francisco and Oakland Bay Bridge",
+               "caption":"",
+               "height":547,
+               "width":972,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/f425c6c6-f188-4190-911f-0ad34002336e.img",
+               "type":"leader",
+               "alt":"Aerial view of San Francisco and Oakland Bay Bridge",
+               "caption":"",
+               "height":233,
+               "width":414,
+               "mediaType":"image/jpeg"
+            },
+            {
+               "url":"http://im.ft-static.com/content/images/cb1abf88-87d5-4641-838e-02d4f3825d04.img",
+               "type":"article",
+               "alt":"Aerial view of San Francisco and Oakland Bay Bridge",
+               "caption":"",
+               "height":338,
+               "width":600,
+               "mediaType":"image/jpeg"
+            }
+         ],
+         "links":[
+            {
+               "href":"http://api.ft.com/content/items/v1/61de9980-7093-11e6-9ac1-1055824ca907",
+               "rel":"content-item"
+            }
+         ]
+      }
+   ]
+}

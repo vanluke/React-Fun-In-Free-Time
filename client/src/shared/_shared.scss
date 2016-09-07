@@ -1,0 +1,54 @@
+@import '../mixins';
+$primary: #2196F3;
+
+body {
+  background: url('./assets/images/paris-843229_1280.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+
+  @include element('content') {
+    background: #efefef;
+    height: 80%;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    min-height: 400px;
+    width: 1000px;
+    margin: auto auto;
+  }
+}
+
+.fun {
+  @include element('input') {
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    transition: border-width .2s ease;
+    border-radius: 2px;
+    color: #ccc;
+    outline: none;
+    color: #444;
+    border-color: $primary;
+    border-left-width: 35px;
+  }
+  @include element('button') {
+    border: none;
+    padding: 15px 20px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.show {
+  display: block !important;
+}

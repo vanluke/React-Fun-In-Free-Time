@@ -1,0 +1,244 @@
+{
+       "id":"fa8a488a-69ab-11e6-a0b1-d87a9fea034f",
+       "title":{
+              "title":"Italy rocked by 6.2 magnitude earthquake"
+       },
+       "lifecycle":{
+              "initialPublishDateTime":"2016-08-24T04:03:16Z",
+              "lastPublishDateTime":"2016-08-24T05:21:42Z"
+       },
+       "location":{
+              "uri":"http://www.ft.com/cms/s/0/fa8a488a-69ab-11e6-a0b1-d87a9fea034f.html"
+       },
+       "editorial":{
+              "subheading":"Dozens of buildings levelled across Lazio, Umbria and Marche",
+              "standFirst":"Buildings levelled as people sleep, with one mayor saying half his town ‘is gone’",
+              "byline":"Rachel Sanderson in Milan"
+       },
+       "metadata":{
+              "primarySection":{
+                     "term":{
+                            "name":"Europe",
+                            "id":"OQ==-U2VjdGlvbnM=",
+                            "attributes":[
+
+                            ],
+                            "taxonomy":"sections"
+                     }
+              },
+              "primaryTheme":{
+                     "term":{
+                            "name":"Italy",
+                            "id":"TnN0ZWluX0dMX0lU-R0w=",
+                            "attributes":[
+
+                            ],
+                            "taxonomy":"regions"
+                     }
+              },
+              "tags":[
+                     {
+                            "term":{
+                                   "name":"Europe",
+                                   "id":"OQ==-U2VjdGlvbnM=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"sections"
+                            }
+                     },
+                     {
+                            "term":{
+                                   "name":"Italy",
+                                   "id":"TnN0ZWluX0dMX0lU-R0w=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"regions"
+                            }
+                     },
+                     {
+                            "term":{
+                                   "name":"News",
+                                   "id":"Nw==-R2VucmVz",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"genre"
+                            }
+                     },
+                     {
+                            "term":{
+                                   "name":"Text",
+                                   "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"mediaType"
+                            }
+                     }
+              ],
+              "authors":[
+                     {
+                            "term":{
+                                   "name":"Rachel Sanderson",
+                                   "id":"Q0ItMDAwMTMzNg==-QXV0aG9ycw==",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"authors"
+                            }
+                     }
+              ],
+              "brand":[
+
+              ],
+              "genre":[
+                     {
+                            "term":{
+                                   "name":"News",
+                                   "id":"Nw==-R2VucmVz",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"genre"
+                            }
+                     }
+              ],
+              "icb":[
+
+              ],
+              "iptc":[
+
+              ],
+              "mediaType":[
+                     {
+                            "term":{
+                                   "name":"Text",
+                                   "id":"ZjMwY2E2NjctMDA1Ni00ZTk4LWI0MWUtZjk5MTk2ZTMyNGVm-TWVkaWFUeXBlcw==",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"mediaType"
+                            }
+                     }
+              ],
+              "organisations":[
+
+              ],
+              "people":[
+
+              ],
+              "regions":[
+                     {
+                            "term":{
+                                   "name":"Rome",
+                                   "id":"TnN0ZWluX0dMX0FGVE1fR0xfMTI1NjE4-R0w=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"regions"
+                            }
+                     },
+                     {
+                            "term":{
+                                   "name":"Italy",
+                                   "id":"TnN0ZWluX0dMX0lU-R0w=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"regions"
+                            }
+                     }
+              ],
+              "sections":[
+                     {
+                            "term":{
+                                   "name":"World",
+                                   "id":"MQ==-U2VjdGlvbnM=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"sections"
+                            }
+                     },
+                     {
+                            "term":{
+                                   "name":"Europe",
+                                   "id":"OQ==-U2VjdGlvbnM=",
+                                   "attributes":[
+
+                                   ],
+                                   "taxonomy":"sections"
+                            }
+                     }
+              ],
+              "specialReports":[
+
+              ],
+              "subjects":[
+
+              ],
+              "topics":[
+
+              ]
+       },
+       "images":[
+              {
+                     "url":"http://im.ft-static.com/content/images/c3c66019-4b6c-4b4d-92b1-970dedf51198.img",
+                     "type":"primary",
+                     "source":"AFP",
+                     "alt":"Residents and rescuers help a man among the rubble after a strong heartquake hit Amatrice on August 24, 2016 Central Italy was struck by a powerful, 6.2-magnitude earthquake in the early hours, which has killed at least three people and devastated dozens of mountain villages. Numerous buildings had collapsed in communities close to the epicenter of the quake near the town of Norcia in the region of Umbria, witnesses told Italian media, with an increase in the death toll highly likely. / AFP PHOTO / FILIPPO MONTEFORTEFILIPPO MONTEFORTE/AFP/Getty Images",
+                     "caption":"Residents and rescuers help a man from the rubble in Amatrice",
+                     "height":153,
+                     "width":272,
+                     "mediaType":"image/jpeg"
+              },
+              {
+                     "url":"http://im.ft-static.com/content/images/2727bc92-518c-41f6-8ad7-5ff80762d859.img",
+                     "type":"secondary",
+                     "source":"AFP",
+                     "alt":"Residents and rescuers help a man among the rubble after a strong heartquake hit Amatrice on August 24, 2016 Central Italy was struck by a powerful, 6.2-magnitude earthquake in the early hours, which has killed at least three people and devastated dozens of mountain villages. Numerous buildings had collapsed in communities close to the epicenter of the quake near the town of Norcia in the region of Umbria, witnesses told Italian media, with an increase in the death toll highly likely. / AFP PHOTO / FILIPPO MONTEFORTEFILIPPO MONTEFORTE/AFP/Getty Images",
+                     "caption":"Residents and rescuers help a man from the rubble in Amatrice",
+                     "height":94,
+                     "width":167,
+                     "mediaType":"image/jpeg"
+              },
+              {
+                     "url":"http://im.ft-static.com/content/images/f35091cd-5182-40a8-8d46-e0ecaea235f0.img",
+                     "type":"wide-format",
+                     "source":"AFP",
+                     "alt":"Residents and rescuers help a man among the rubble after a strong heartquake hit Amatrice on August 24, 2016 Central Italy was struck by a powerful, 6.2-magnitude earthquake in the early hours, which has killed at least three people and devastated dozens of mountain villages. Numerous buildings had collapsed in communities close to the epicenter of the quake near the town of Norcia in the region of Umbria, witnesses told Italian media, with an increase in the death toll highly likely. / AFP PHOTO / FILIPPO MONTEFORTEFILIPPO MONTEFORTE/AFP/Getty Images",
+                     "caption":"Residents and rescuers help a man from the rubble in Amatrice",
+                     "height":547,
+                     "width":972,
+                     "mediaType":"image/jpeg"
+              },
+              {
+                     "url":"http://im.ft-static.com/content/images/11e0121a-77df-4a6d-abae-d63aac27dc5c.img",
+                     "type":"leader",
+                     "source":"AFP",
+                     "alt":"Residents and rescuers help a man among the rubble after a strong heartquake hit Amatrice on August 24, 2016 Central Italy was struck by a powerful, 6.2-magnitude earthquake in the early hours, which has killed at least three people and devastated dozens of mountain villages. Numerous buildings had collapsed in communities close to the epicenter of the quake near the town of Norcia in the region of Umbria, witnesses told Italian media, with an increase in the death toll highly likely. / AFP PHOTO / FILIPPO MONTEFORTEFILIPPO MONTEFORTE/AFP/Getty Images",
+                     "caption":"Residents and rescuers help a man from the rubble in Amatrice",
+                     "height":233,
+                     "width":414,
+                     "mediaType":"image/jpeg"
+              },
+              {
+                     "url":"http://im.ft-static.com/content/images/4617b97b-fe03-4757-8222-5216a51d667e.img",
+                     "type":"article",
+                     "source":"AFP",
+                     "alt":"Residents and rescuers help a man among the rubble after a strong heartquake hit Amatrice on August 24, 2016 Central Italy was struck by a powerful, 6.2-magnitude earthquake in the early hours, which has killed at least three people and devastated dozens of mountain villages. Numerous buildings had collapsed in communities close to the epicenter of the quake near the town of Norcia in the region of Umbria, witnesses told Italian media, with an increase in the death toll highly likely. / AFP PHOTO / FILIPPO MONTEFORTEFILIPPO MONTEFORTE/AFP/Getty Images",
+                     "caption":"Residents and rescuers help a man from the rubble in Amatrice",
+                     "height":338,
+                     "width":600,
+                     "mediaType":"image/jpeg"
+              }
+       ],
+       "links":[
+              {
+                     "href":"http://api.ft.com/content/items/v1/fa8a488a-69ab-11e6-a0b1-d87a9fea034f",
+                     "rel":"content-item"
+              }
+       ]
+}
