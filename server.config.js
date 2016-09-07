@@ -74,7 +74,7 @@ const conf = convict({
 });
 
 const env = conf.get('env') || 'development';
-conf.loadFile(`./config/${env}.json`);
+conf.loadFile(`./server/config/${env}.json`);
 conf.validate({ strict: true });
 
 export default conf;

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import { setLoginState } from './authentication-action-creators';
-import { SET_LOGIN_STATE } from './const';
+import { setLoginState } from './action-creator';
+import { SET_LOGIN_STATE } from './consts';
 
 describe('action creators', () => {
   describe('authentication', () => {

@@ -33,7 +33,10 @@ export const getToken = async function() {
     ? JSON.parse(body)
     : body);
   const user = await mdb(getEntity(entity));
-  this.body = createJWT(user);
+  this.body = { token: createJWT(user),
+    userName: entity.userName,
+    at: new Date().toString()
+  };
   this.status = 201;
 };
 

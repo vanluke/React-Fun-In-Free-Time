@@ -45,8 +45,8 @@ class App extends PureComponent {
           navCollection={navCollection}
           toggleSideBar={this.toggleSideBar.bind(this)}
           isVisible={isVisible} />
-        <div>{this.props.children}</div>
       </Header>
+      <div className="container__main">{this.props.children}</div>
     </div>);
   }
 
@@ -54,7 +54,8 @@ class App extends PureComponent {
     children: PropTypes.object.isRequired,
     isVisible: PropTypes.bool,
     user: PropTypes.object,
-    userInfoNavIsOpen: PropTypes.bool
+    userInfoNavIsOpen: PropTypes.bool,
+    dispatch: PropTypes.func.isRequired
   };
 }
 

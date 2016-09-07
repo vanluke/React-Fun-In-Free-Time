@@ -23,7 +23,12 @@ export class Cards extends PureComponent {
 
   render() {
     const { items } = this.props;
-    return (<div>{this.createCards(items)}</div>);
+    return (<div className="container__main__cards">
+      <h3 className="container__main__cards__header">
+        Financial Times Headlines
+      </h3>
+      {this.createCards(items)}
+    </div>);
   }
 
   static propsTypes = {

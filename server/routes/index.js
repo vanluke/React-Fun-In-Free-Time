@@ -1,8 +1,8 @@
 import router from './app-router';
 import ftRoutes from './ft';
-import authRoutes from './auth';
+// import authRoutes from './auth';
 
 ftRoutes(router);
-//authRoutes(router);
+// authRoutes(router);
 
 export default router;

@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { validateState } from '../../login/actions';
 
-export default function(ComposedComponent) {
+const Wrapper = function(ComposedComponent) {
   class AuthenticatedComponent extends PureComponent {
     componentWillMount() {
       const { dispatch } = this.props;
@@ -12,6 +12,9 @@ export default function(ComposedComponent) {
     render() {
       const { props } = this;
       return <ComposedComponent {...props} />;
+    }
+    static propTypes = {
+      dispatch: PropTypes.func.isRequired
     }
   }
 
@@ -24,4 +27,6 @@ export default function(ComposedComponent) {
   }
 
   return connect(mapStateToProps)(AuthenticatedComponent);
-}
+};
+
+export default Wrapper;

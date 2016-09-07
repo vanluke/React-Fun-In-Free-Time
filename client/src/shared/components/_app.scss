@@ -1,7 +1,33 @@
 @import '../../mixins';
 
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
 .content {
   left: 20px;
   position: relative;
   top: 100px;
+}
+
+.container {
+  @include element('main') {
+    position: relative;
+    top: 100px;
+    @include element('cards') {
+      background: rgba(255, 255, 255, .6);
+      @include element('header') {
+        font-size: 30px;
+        color: #0090ff;
+        height: 120px;
+        padding: 40px;
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+        animation: pulse 5.5s ease-in-out infinite alternate;
+      }
+    }
+  }
 }

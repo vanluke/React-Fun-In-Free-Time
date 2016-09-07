@@ -10,6 +10,6 @@ export const authenticate = (credentials) => {
     // }),
     body: JSON.stringify(credentials)
   })
-  .then(response => response.text())
-  .then(token => token);
+  .then(response => response.json())
+  .then(token => token.token);
 };
